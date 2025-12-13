@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DriveNext</string>
+    
+    <!-- Splash Screen -->
+    <string name="app_tagline">Поможем найти твою следующую поездку</string>
+    
+    <!-- Onboarding -->
+    <string name="skip">Пропустить</string>
+    <string name="next">Далее</string>
+    <string name="go">Поехали</string>
+    <string name="onboarding_title_1">Аренда автомобилей</string>
+    <string name="onboarding_desc_1">Открой для себя удобный и доступный способ передвижения</string>
+    <string name="onboarding_title_2">Безопасно и удобно</string>
+    <string name="onboarding_desc_2">Арендуй автомобиль и наслаждайся его удобством</string>
+    <string name="onboarding_title_3">Лучшие предложения</string>
+    <string name="onboarding_desc_3">Выбирай понравившееся среди сотен доступных автомобилей</string>
+    
+    <!-- Getting Started -->
+    <string name="login">Войти</string>
+    <string name="sign_up">Зарегистрироваться</string>
+    
+    <!-- Login -->
+    <string name="login_title">Войдите в аккаунт</string>
+    <string name="login_subtitle">Пожалуйста, введите свои данные</string>
+    <string name="email">Электронная почта</string>
+    <string name="email_hint">Введите электронную почту</string>
+    <string name="password">Пароль</string>
+    <string name="password_hint">Введите пароль</string>
+    <string name="forgot_password">Забыли пароль?</string>
+    <string name="login_google">Войти через Google</string>
+    <string name="register">Зарегистироваться</string>
+    
+    <!-- Sign Up -->
+    <string name="create_account">Создать аккаунт</string>
+    <string name="last_name">Фамилия</string>
+    <string name="last_name_hint">Введите фамилию</string>
+    <string name="first_name">Имя</string>
+    <string name="first_name_hint">Введите имя</string>
+    <string name="middle_name">Отчество</string>
+    <string name="middle_name_hint">Введите отчество</string>
+    <string name="birth_date">Дата рождения</string>
+    <string name="date_hint">DD/MM/YYYY</string>
+    <string name="gender">Пол</string>
+    <string name="gender_male">Мужской</string>
+    <string name="gender_female">Женский</string>
+    <string name="create_password">Придумайте пароль</string>
+    <string name="repeat_password">Повторите пароль</string>
+    <string name="terms_accept">Я согласен с условиями обслуживания и политикой конфиденциальности</string>
+    <string name="license_number">Номер водительского удостоверения</string>
+    <string name="license_number_hint">0000000000</string>
+    <string name="issue_date">Дата выдачи</string>
+    <string name="upload_license_photo">Загрузите фото водительского удостоверения</string>
+    <string name="upload_passport_photo">Загрузите фото паспорта</string>
+    <string name="upload_photo">Загрузить фото</string>
+    <string name="photo_description">Добавление фотографии поможет владельцам и арендаторам узнать друг друга, когда они будут забирать машину</string>
+    
+    <!-- Congratulations -->
+    <string name="congratulations_title">Поздравляем</string>
+    <string name="congratulations_message">Вы успешно зарегистрировались.\nОбработка ваших персональных данных займет около двух часов. Спасибо за ожидание.</string>
+    <string name="enjoy">Пользуйтесь с удовольствием</string>
+    
+    <!-- No Connection -->
+    <string name="no_connection_title">Нет подключения\nк интернету</string>
+    <string name="no_connection_message">Проверьте подключение и повторите попытку</string>
+    <string name="retry">Повторить попытку</string>
+</resources>
+
