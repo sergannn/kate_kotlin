@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".BookingSuccessActivity">
+
+    <!-- Status bar placeholder -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="27dp"
+        android:paddingEnd="27dp"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp"
+        android:background="@android:color/white" />
+
+    <!-- Title -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="64dp"
+        android:paddingBottom="8dp"
+        android:background="@android:color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Удачной поездки"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_black" />
+
+    </LinearLayout>
+
+    <!-- Success icon and message -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="202dp"
+        android:paddingStart="45dp"
+        android:paddingEnd="45dp">
+
+        <ImageView
+            android:id="@+id/successIcon"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/success_circle"
+            android:layout_marginBottom="32dp" />
+
+        <TextView
+            android:id="@+id/successMessageTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Бронирование успешно создано"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_black"
+            android:gravity="center"
+            android:maxWidth="300dp" />
+
+    </LinearLayout>
+
+    <!-- Bottom buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:paddingBottom="66dp"
+        android:background="@android:color/white">
+
+        <TextView
+            android:id="@+id/myBookingsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Перейти к своим бронированиям"
+            android:textSize="14sp"
+            android:textColor="@color/text_black"
+            android:padding="8dp"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginBottom="32dp" />
+
+        <Button
+            android:id="@+id/homeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Домой"
+            android:backgroundTint="@color/primary"
+            android:textColor="@color/text_white"
+            android:padding="14dp"
+            style="@style/Widget.MaterialComponents.Button" />
+
+        <include
+            android:id="@+id/tabBar"
+            layout="@layout/bottom_tab_bar" />
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

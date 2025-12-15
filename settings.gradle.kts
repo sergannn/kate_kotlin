@@ -5,7 +5,7 @@ pluginManagement {
         gradlePluginPortal()
     }
     plugins {
-        id("com.android.application") version "8.0.2"
+        id("com.android.application") version "8.9.2"
         id("org.jetbrains.kotlin.android") version "1.8.20"
     }
 }
@@ -15,6 +15,8 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        // Supabase может быть в JitPack
+        maven { url = uri("https://jitpack.io") }
     }
 }
 

@@ -1,0 +1,338 @@
+[
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_ic_transmission.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/ic_transmission.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_onboarding_1.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/onboarding_1.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_item_onboarding.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/item_onboarding.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_activity_congratulations.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_congratulations.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_activity_add_car_step3.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_add_car_step3.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_heart.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/heart.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_edit_text_background.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/edit_text_background.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_home_settings.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/home_settings.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_uber_taxi_settings.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/uber_taxi_settings.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_activity_booking_details.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_booking_details.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_arrow_icon.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/arrow_icon.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_banknotes_settings.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/banknotes_settings.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_activity_booking.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_booking.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_getting_started_image.png.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/getting_started_image.png"
+    },
+    {
+        "merged": "com.drivenext.app-debug-36:/layout_activity_favorites.xml.flat",
+        "source": "com.drivenext.app-main-38:/layout/activity_favorites.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_google_button_background.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/google_button_background.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_onboarding3_image.png.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/onboarding3_image.png"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_activity_signup3.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_signup3.xml"
+    },
+    {
+        "merged": "com.drivenext.app-debug-36:/layout_activity_add_car_step3.xml.flat",
+        "source": "com.drivenext.app-main-38:/layout/activity_add_car_step3.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_bookmark_settings.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/bookmark_settings.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_activity_add_car_step2.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_add_car_step2.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_splash_2.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/splash_2.xml"
+    },
+    {
+        "merged": "com.drivenext.app-debug-36:/layout_activity_booking_success.xml.flat",
+        "source": "com.drivenext.app-main-38:/layout/activity_booking_success.xml"
+    },
+    {
+        "merged": "com.drivenext.app-debug-36:/layout_activity_booking_details.xml.flat",
+        "source": "com.drivenext.app-main-38:/layout/activity_booking_details.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_splash.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/splash.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_profile_avatar.png.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/profile_avatar.png"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_activity_become_owner.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_become_owner.xml"
+    },
+    {
+        "merged": "com.drivenext.app-debug-36:/layout_activity_add_car_success.xml.flat",
+        "source": "com.drivenext.app-main-38:/layout/activity_add_car_success.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_item_booking.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/item_booking.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_activity_my_bookings.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_my_bookings.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_circle_border.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/circle_border.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_activity_main.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_activity_no_connection.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_no_connection.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_error_icon.png.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/error_icon.png"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_success_icon.png.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/success_icon.png"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_success_circle.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/success_circle.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_activity_signup2.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_signup2.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_circle_background.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/circle_background.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_activity_favorites.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_favorites.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_activity_onboarding.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_onboarding.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_arrow_icon_right.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/arrow_icon_right.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_icon_theme_settings.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/icon_theme_settings.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_layout_register_step2.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/layout_register_step2.xml"
+    },
+    {
+        "merged": "com.drivenext.app-debug-36:/layout_activity_add_car_step2.xml.flat",
+        "source": "com.drivenext.app-main-38:/layout/activity_add_car_step2.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_icon_profile_settings.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/icon_profile_settings.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_no_connection.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/no_connection.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_onboarding2_image.png.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/onboarding2_image.png"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_activity_car_details.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_car_details.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_activity_getting_started.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_getting_started.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_activity_profile.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_homepage_car.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/homepage_car.xml"
+    },
+    {
+        "merged": "com.drivenext.app-debug-36:/layout_activity_add_car_step1.xml.flat",
+        "source": "com.drivenext.app-main-38:/layout/activity_add_car_step1.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_help_settings.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/help_settings.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_activity_signup1.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_signup1.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_google_icon.png.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/google_icon.png"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_ic_fuel.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/ic_fuel.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_notification_settings.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/notification_settings.xml"
+    },
+    {
+        "merged": "com.drivenext.app-debug-36:/layout_item_booking.xml.flat",
+        "source": "com.drivenext.app-main-38:/layout/item_booking.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_activity_success_register.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_success_register.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_splash_image.png.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/splash_image.png"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_icon_settings.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/icon_settings.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_activity_add_car_step1.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_add_car_step1.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_check_circle.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/check_circle.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_layout_register_step1.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/layout_register_step1.xml"
+    },
+    {
+        "merged": "com.drivenext.app-debug-36:/layout_activity_become_owner.xml.flat",
+        "source": "com.drivenext.app-main-38:/layout/activity_become_owner.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_activity_search_results.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_search_results.xml"
+    },
+    {
+        "merged": "com.drivenext.app-debug-36:/layout_activity_main.xml.flat",
+        "source": "com.drivenext.app-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_layout_register_step3.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/layout_register_step3.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_activity_settings.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_activity_login.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_item_car.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/item_car.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_car_map.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/car_map.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_upload_button.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/upload_button.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_activity_splash.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.drivenext.app-debug-36:/layout_activity_my_bookings.xml.flat",
+        "source": "com.drivenext.app-main-38:/layout/activity_my_bookings.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_btn_rounded.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/btn_rounded.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_activity_add_car_success.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_add_car_success.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_onboarding1_image.png.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/onboarding1_image.png"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_item_favorite_car.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/item_favorite_car.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_activity_booking_success.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_booking_success.xml"
+    },
+    {
+        "merged": "com.drivenext.app-debug-36:/layout_bottom_tab_bar.xml.flat",
+        "source": "com.drivenext.app-main-38:/layout/bottom_tab_bar.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_mail_settings.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/mail_settings.xml"
+    }
+]

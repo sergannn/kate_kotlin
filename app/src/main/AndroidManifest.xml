@@ -4,13 +4,12 @@
     
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        android:theme="@style/Theme.DriveNext">
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            android:theme="@style/Theme.DriveNext">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -18,31 +17,73 @@
         </activity>
         <activity
             android:name=".SplashActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+            android:theme="@style/Theme.DriveNext" />
         <activity
             android:name=".OnboardingActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+            android:theme="@style/Theme.DriveNext" />
         <activity
             android:name=".GettingStartedActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+            android:theme="@style/Theme.DriveNext" />
         <activity
             android:name=".LoginActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+            android:theme="@style/Theme.DriveNext" />
         <activity
             android:name=".SignUp1Activity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+            android:theme="@style/Theme.DriveNext" />
         <activity
             android:name=".SignUp2Activity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+            android:theme="@style/Theme.DriveNext" />
         <activity
             android:name=".SignUp3Activity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+            android:theme="@style/Theme.DriveNext" />
         <activity
             android:name=".CongratulationsActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+            android:theme="@style/Theme.DriveNext" />
         <activity
             android:name=".NoConnectionActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+            android:theme="@style/Theme.DriveNext" />
+        <activity
+            android:name=".SearchResultsActivity"
+            android:theme="@style/Theme.DriveNext" />
+        <activity
+            android:name=".CarDetailsActivity"
+            android:theme="@style/Theme.DriveNext" />
+        <activity
+            android:name=".BookingActivity"
+            android:theme="@style/Theme.DriveNext" />
+        <activity
+            android:name=".BookingSuccessActivity"
+            android:theme="@style/Theme.DriveNext" />
+        <activity
+            android:name=".MyBookingsActivity"
+            android:theme="@style/Theme.DriveNext" />
+        <activity
+            android:name=".BookingDetailsActivity"
+            android:theme="@style/Theme.DriveNext" />
+        <activity
+            android:name=".FavoritesActivity"
+            android:theme="@style/Theme.DriveNext" />
+        <activity
+            android:name=".SettingsActivity"
+            android:theme="@style/Theme.DriveNext" />
+        <activity
+            android:name=".ProfileActivity"
+            android:theme="@style/Theme.DriveNext" />
+        <activity
+            android:name=".BecomeOwnerActivity"
+            android:theme="@style/Theme.DriveNext" />
+        <activity
+            android:name=".AddCarStep1Activity"
+            android:theme="@style/Theme.DriveNext" />
+        <activity
+            android:name=".AddCarStep2Activity"
+            android:theme="@style/Theme.DriveNext" />
+        <activity
+            android:name=".AddCarStep3Activity"
+            android:theme="@style/Theme.DriveNext" />
+        <activity
+            android:name=".AddCarSuccessActivity"
+            android:theme="@style/Theme.DriveNext" />
     </application>
 </manifest>
 

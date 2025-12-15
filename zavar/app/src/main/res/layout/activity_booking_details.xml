@@ -1,0 +1,238 @@
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".BookingDetailsActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        app:elevation="0dp">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:navigationIcon="@drawable/arrow_icon"
+            tools:title="Бронирование # 874659" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="80dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/carNameTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="S 500 Sedan"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                        app:layout_constraintEnd_toStartOf="@+id/carImageView"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/carBrandTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mercedes-Benz"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/carNameTextView" />
+
+                    <TextView
+                        android:id="@+id/carPriceTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="2500Р в день"
+                        android:textColor="@color/purple_700"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/carBrandTextView" />
+
+                    <ImageView
+                        android:id="@+id/carImageView"
+                        android:layout_width="199dp"
+                        android:layout_height="113dp"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:src="@drawable/homepage_car" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:columnCount="2"
+                android:rowCount="6">
+
+                <TextView
+                    android:layout_columnWeight="1"
+                    android:text="Адрес нахождения" />
+
+                <TextView
+                    android:id="@+id/locationTextView"
+                    android:layout_gravity="end"
+                    android:text="Авиамоторная ул., 8, стр. 2" />
+
+                <TextView
+                    android:layout_columnWeight="1"
+                    android:layout_marginTop="8dp"
+                    android:text="Начало аренды" />
+
+                <TextView
+                    android:id="@+id/startDateTextView"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="8dp"
+                    android:text="08:00, 27 сентября 2024" />
+
+                <TextView
+                    android:layout_columnWeight="1"
+                    android:layout_marginTop="8dp"
+                    android:text="Конец аренды" />
+
+                <TextView
+                    android:id="@+id/endDateTextView"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="8dp"
+                    android:text="08:00, 30 сентября 2024" />
+
+                <TextView
+                    android:layout_columnWeight="1"
+                    android:layout_marginTop="8dp"
+                    android:text="ФИО водителя" />
+
+                <TextView
+                    android:id="@+id/driverTextView"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="8dp"
+                    android:text="Иван Иванов" />
+
+                <TextView
+                    android:layout_columnWeight="1"
+                    android:layout_marginTop="8dp"
+                    android:text="Номер ВУ" />
+
+                <TextView
+                    android:id="@+id/licenseTextView"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="8dp"
+                    android:text="45164634" />
+
+                <TextView
+                    android:layout_columnWeight="1"
+                    android:layout_marginTop="8dp"
+                    android:text="Статус аренды" />
+
+                <TextView
+                    android:id="@+id/statusTextView"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="8dp"
+                    android:text="Одобрено"
+                    android:textColor="@android:color/holo_green_dark" />
+
+            </GridLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="24dp"
+                android:background="#EEE" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:text="Аренда x3 дня:" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:text="2500Р/день" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:text="Страховка x3 дня:" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:text="300Р/день" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:text="Общая сумма"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/totalAmountValue"
+                    android:layout_alignParentEnd="true"
+                    android:text="8400Р"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="16dp"
+        android:text="Отменить бронирование"
+        android:backgroundTint="@color/purple_700"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">DriveNext</string>
+    <string name="default_web_client_id">YOUR_GOOGLE_CLIENT_ID</string>
+    <string name="back">Назад</string>
+    <string name="close">Закрыть</string>
     
     <!-- Splash Screen -->
     <string name="app_tagline">Поможем найти твою следующую поездку</string>
@@ -61,8 +64,131 @@
     <string name="enjoy">Пользуйтесь с удовольствием</string>
     
     <!-- No Connection -->
+    <string name="no_connection">Нет подключения к интернету</string>
     <string name="no_connection_title">Нет подключения\nк интернету</string>
     <string name="no_connection_message">Проверьте подключение и повторите попытку</string>
     <string name="retry">Повторить попытку</string>
+    
+    <!-- Main/Homepage -->
+    <string name="search_car_hint">Введите марку автомобиля</string>
+    <string name="find_car_title">Давайте найдем автомобиль</string>
+    <string name="view_all">View All</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Настройки</string>
+    <string name="my_bookings">Мои бронирования</string>
+    <string name="theme">Тема</string>
+    <string name="notifications">Уведомления</string>
+    <string name="connect_car">Подключить свой автомобиль</string>
+    <string name="help">Помощь</string>
+    <string name="invite_friend">Пригласи друга</string>
+    
+    <!-- Profile -->
+    <string name="profile_title">Профиль</string>
+    <string name="joined_date">Присоединился в июле 2024</string>
+    <string name="change_password">Поменять пароль</string>
+    <string name="logout">Выйти из профиля</string>
+    
+    <!-- Bookings -->
+    <string name="bookings_title">Мои бронирования</string>
+    <string name="booking_start">Начало аренды:</string>
+    <string name="booking_end">Конец аренды:</string>
+    <string name="booking_completed">Аренда завершена</string>
+    <string name="booking_cancelled">Аренда отменена</string>
+    <string name="booking_details_title">Бронирование # %1$s</string>
+    <string name="booking_address">Адрес нахождения</string>
+    <string name="booking_driver_name">ФИО водителя</string>
+    <string name="booking_license_number">Номер ВУ</string>
+    <string name="booking_status">Статус аренды</string>
+    <string name="booking_approved">Одобрено</string>
+    <string name="booking_rental">Аренда</string>
+    <string name="booking_insurance">Страховка</string>
+    <string name="booking_total">Общая сумма</string>
+    <string name="cancel_booking">Отменить бронирование</string>
+    <string name="booking_cancel_button">Отменить бронирование</string>
+    <string name="booking_cancel_dialog_title">Отмена бронирования</string>
+    <string name="booking_cancel_dialog_message">Вы уверены, что хотите отменить бронирование?</string>
+    <string name="booking_cancel_dialog_positive">Да</string>
+    <string name="booking_cancel_dialog_negative">Нет</string>
+    <string name="booking_success_title">Удачной поездки</string>
+    <string name="booking_created">Бронирование успешно создано</string>
+    <string name="go_to_bookings">Перейти к своим бронированиям</string>
+    <string name="checkout_title">Оформление аренды</string>
+    <string name="continue_booking">Продолжить</string>
+    <string name="deposit">Возвращаемый депозит</string>
+    <string name="promo_code">Promo code</string>
+    <string name="add">ADD</string>
+    <string name="extras">Extras</string>
+    <string name="protection_plans">Protection plans</string>
+    <string name="payment_info">Payment info</string>
+    <string name="message_to_host">Message to Host</string>
+    <string name="message_to_host_hint">Introduce yourself and share details about your trip</string>
+    <string name="not_charged_until_confirmed">You won\'t be charged until Host confirms this trip.</string>
+    
+    <!-- Favorites -->
+    <string name="favorites_title">Избранное</string>
+    
+    <!-- Car Details -->
+    <string name="car_details_title">Детали</string>
+    <string name="car_location">Адрес нахождения</string>
+    <string name="car_description">Описание</string>
+    <string name="car_specifications">Specifications</string>
+    <string name="car_basics">Basics</string>
+    <string name="car_features">Features</string>
+    <string name="car_insurance">Insurance &amp; protection</string>
+    <string name="car_deluxe">Deluxe class</string>
+    <string name="car_ratings">Ratings &amp; reviews</string>
+    <string name="car_reviews">Reviews</string>
+    <string name="see_all_reviews">SEE ALL REVIEWS</string>
+    <string name="hosted_by">Hosted by</string>
+    <string name="view_owner_details">View owner\'s details</string>
+    <string name="extras_count">Extras (%1$d)</string>
+    <string name="extras_description">Add optional Extras to your trip at checkout</string>
+    <string name="more_info">MORE INFO</string>
+    <string name="view_more">VIEW %1$d MORE</string>
+    <string name="report_listing">Report listing</string>
+    <string name="cancellation_policy">Cancellation policy</string>
+    
+    <!-- Add Car -->
+    <string name="add_car_title">Добавление автомобиля</string>
+    <string name="add_car_address_label">Где расположен ваш автомобиль?</string>
+    <string name="add_car_address_question">Где расположен ваш автомобиль?</string>
+    <string name="add_car_address_hint">Введите адрес</string>
+    <string name="add_car_next">Далее</string>
+    <string name="next_button">Далее</string>
+    <string name="add_car_year">Год выпуска</string>
+    <string name="add_car_year_hint">Год</string>
+    <string name="add_car_brand">Марка автомобиля</string>
+    <string name="add_car_brand_hint">Марка</string>
+    <string name="add_car_model">Модель</string>
+    <string name="add_car_model_hint">Модель</string>
+    <string name="add_car_transmission">Трансмиссия</string>
+    <string name="add_car_transmission_hint">Трансмиссия</string>
+    <string name="add_car_mileage">Пробег</string>
+    <string name="add_car_mileage_hint">Пробег</string>
+    <string name="add_car_description_label">Добавьте описание</string>
+    <string name="add_car_description_hint">Пожалуйста, добавьте дополнительную информацию о вашем автомобиле, которая может быть интересна арендатору. Например, о внутреннем оформлении, мощности и других особенностях вашего автомобиля.</string>
+    <string name="add_car_submit">Отправить</string>
+    <string name="send_button">Отправить</string>
+    <string name="add_car_photos_title">Добавление фотографий</string>
+    <string name="add_car_success_title">Ваш автомобиль добавлен</string>
+    <string name="add_car_success_message">Поздравляем! Ваш автомобиль одобрен</string>
+    <string name="go_home">На главную</string>
+    <string name="to_main_button">На главную</string>
+    
+    <!-- Become Owner -->
+    <string name="become_owner_title">Стать арендодателем</string>
+    <string name="become_owner_description">Узнайте, что включает в себя становление арендодателем в приложении. Присоединяйтесь к тысячам владельцев, зарабатывающих в приложении.</string>
+    <string name="how_it_works">Как это работает</string>
+    <string name="how_it_works_description">Размещение бесплатное,  вы можете устанавливать свои цены, доступность и правила. Получение и возврат автомобиля просты, а оплата производится быстро после каждой поездки.</string>
+    <string name="insurance_policy">Политика страхования</string>
+    <string name="insurance_policy_description">Доступны различные уровни защиты автомобиля на случай непредвиденных ситуаций.</string>
+    <string name="we_support_you">Мы поддержим вас</string>
+    <string name="we_support_you_description">От проверки арендаторов до поддержки клиентов – вы всегда можете делиться своим автомобилем с уверенностью.</string>
+    <string name="start">Начать</string>
+    
+    <!-- Search Results -->
+    <string name="search_results_title">Результаты поиска</string>
+    <string name="searching_cars">Ищем подходящие автомобили</string>
 </resources>
 

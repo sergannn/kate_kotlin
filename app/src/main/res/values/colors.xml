@@ -1,13 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Фирменные цвета -->
+    <color name="brand_purple">#2A1246</color>
     <color name="primary">#2A1246</color>
-    <color name="white">#FFFFFF</color>
+
+    <!-- Тексты -->
+    <color name="text_black">#000000</color>
+    <color name="text_gray">#1A1A1A</color>
+    <color name="text_white">#FFFFFF</color>
     <color name="text">#1A1A1A</color>
     <color name="label">#404040</color>
     <color name="gray">#667085</color>
-    <color name="stroke">#D0D5DD</color>
-    <color name="gray_light">#E4E7EC</color>
-    <color name="black">#000000</color>
     <color name="text_secondary">#B3000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Фоны -->
+    <color name="background_white">#FFFFFF</color>
+    <color name="background_gray">#F5F5F5</color>
+
+    <!-- Индикаторы -->
+    <color name="indicator_active">#2A1246</color>
+    <color name="indicator_inactive">#CCCCCC</color>
+    <color name="gray_light">#E4E7EC</color>
+
+    <!-- Границы -->
+    <color name="stroke">#D0D5DD</color>
+
+    <!-- Ошибки -->
+    <color name="error_red">#FF0000</color>
+
+    <!-- Стандартные Material цвета -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
 </resources>
 

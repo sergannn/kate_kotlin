@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Изображение автомобиля -->
+        <ImageView
+            android:id="@+id/ivCarImage"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/homepage_car"
+            android:scaleType="centerCrop"
+            android:background="@color/background_gray"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Марка и модель -->
+        <TextView
+            android:id="@+id/tvCarTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Toyota Camry"
+            android:textSize="18sp"
+            android:textColor="@color/text_black"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Характеристики -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:id="@+id/tvYear"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2023"
+                android:textSize="14sp"
+                android:textColor="@color/text_gray" />
+
+            <TextView
+                android:id="@+id/tvFuel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Бензин"
+                android:textSize="14sp"
+                android:textColor="@color/text_gray" />
+
+            <TextView
+                android:id="@+id/tvTransmission"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Автомат"
+                android:textSize="14sp"
+                android:textColor="@color/text_gray" />
+
+            <TextView
+                android:id="@+id/tvSeats"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="5 мест"
+                android:textSize="14sp"
+                android:textColor="@color/text_gray" />
+
+        </LinearLayout>
+
+        <!-- Цена и кнопки -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tvPrice"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="2 500 ₽/день"
+                android:textSize="16sp"
+                android:textColor="@color/brand_purple"
+                android:textStyle="bold" />
+
+            <!-- Кнопка Детали -->
+            <Button
+                android:id="@+id/btnDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Детали"
+                android:textColor="@color/brand_purple"
+                android:backgroundTint="@android:color/transparent"
+                android:layout_marginEnd="8dp"
+                style="@style/Widget.Material3.Button.OutlinedButton" />
+
+            <!-- Кнопка Забронировать -->
+            <Button
+                android:id="@+id/btnBook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Забронировать"
+                android:textColor="@android:color/white"
+                android:backgroundTint="@color/brand_purple" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

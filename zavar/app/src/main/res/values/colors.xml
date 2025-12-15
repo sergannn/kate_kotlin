@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Фирменные цвета -->
+    <color name="brand_purple">#2A1246</color>
+
+    <!-- Тексты -->
+    <color name="text_black">#000000</color>
+    <color name="text_gray">#1A1A1A</color>
+    <color name="text_white">#FFFFFF</color>
+
+    <!-- Фоны -->
+    <color name="background_white">#FFFFFF</color>
+    <color name="background_gray">#F5F5F5</color>
+
+    <!-- Индикаторы -->
+    <color name="indicator_active">#2A1246</color>
+    <color name="indicator_inactive">#CCCCCC</color>
+
+    <!-- Расширенные (на всякий) -->
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+
+    <color name="error_red">#FF0000</color>
+</resources>

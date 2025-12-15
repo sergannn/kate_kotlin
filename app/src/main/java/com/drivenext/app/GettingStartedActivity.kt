@@ -14,7 +14,7 @@ class GettingStartedActivity : AppCompatActivity() {
             startActivity(Intent(this, LoginActivity::class.java))
         }
         
-        findViewById<Button>(R.id.btnSignUp).setOnClickListener {
+        findViewById<Button>(R.id.btnRegister)?.setOnClickListener {
             startActivity(Intent(this, SignUp1Activity::class.java))
         }
     }
