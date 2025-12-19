@@ -84,6 +84,9 @@
                 android:scaleType="centerCrop"
                 android:background="@drawable/edit_text_background"
                 android:layout_marginBottom="8dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:contentDescription="Главное фото автомобиля"
                 tools:src="@drawable/homepage_car" />
 
             <!-- Photo grid -->
@@ -107,6 +110,9 @@
                         android:layout_marginEnd="8dp"
                         android:scaleType="centerCrop"
                         android:background="@drawable/edit_text_background"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:contentDescription="Фото автомобиля 1"
                         tools:src="@drawable/homepage_car" />
 
                     <ImageView
@@ -116,6 +122,9 @@
                         android:layout_weight="1"
                         android:scaleType="centerCrop"
                         android:background="@drawable/edit_text_background"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:contentDescription="Фото автомобиля 2"
                         tools:src="@drawable/homepage_car" />
 
                 </LinearLayout>
@@ -133,6 +142,9 @@
                         android:layout_marginEnd="8dp"
                         android:scaleType="centerCrop"
                         android:background="@drawable/edit_text_background"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:contentDescription="Фото автомобиля 3"
                         tools:src="@drawable/homepage_car" />
 
                     <ImageView
@@ -142,6 +154,9 @@
                         android:layout_weight="1"
                         android:scaleType="centerCrop"
                         android:background="@drawable/edit_text_background"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:contentDescription="Фото автомобиля 4"
                         tools:src="@drawable/homepage_car" />
 
                 </LinearLayout>

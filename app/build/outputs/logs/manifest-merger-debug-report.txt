@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:2:1-88:12
-INJECTED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:2:1-88:12
-INJECTED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:2:1-88:12
-INJECTED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:2:1-88:12
+ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:2:1-91:12
+INJECTED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:2:1-91:12
+INJECTED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:2:1-91:12
+INJECTED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:2:1-91:12
 MERGED from [androidx.databinding:viewbinding:8.9.2] /Users/servas/.gradle/caches/8.11.1/transforms/6a8b9fd4e005afd7a6375a301be6b2fd/transformed/jetified-viewbinding-8.9.2/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.10.0] /Users/servas/.gradle/caches/8.11.1/transforms/3a31da44d3fb57c8626866a2398b513a/transformed/material-1.10.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/servas/.gradle/caches/8.11.1/transforms/8a83156dc81ad820fc7e174c0cce9987/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
@@ -63,9 +63,19 @@ uses-permission#android.permission.INTERNET
 ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:3:5-67
 	android:name
 		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:3:22-64
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:4:5-76
+	android:name
+		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:4:22-73
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:5:5-6:38
+	android:maxSdkVersion
+		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:6:9-35
+	android:name
+		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:5:22-77
 application
-ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:5:5-87:19
-INJECTED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:5:5-87:19
+ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:8:5-90:19
+INJECTED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:8:5-90:19
 MERGED from [com.google.android.material:material:1.10.0] /Users/servas/.gradle/caches/8.11.1/transforms/3a31da44d3fb57c8626866a2398b513a/transformed/material-1.10.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.10.0] /Users/servas/.gradle/caches/8.11.1/transforms/3a31da44d3fb57c8626866a2398b513a/transformed/material-1.10.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/servas/.gradle/caches/8.11.1/transforms/8a83156dc81ad820fc7e174c0cce9987/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -87,167 +97,167 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/servas/.gradle/cache
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.12.0] /Users/servas/.gradle/caches/8.11.1/transforms/49a2f2550d2b04b2f2378acaeddac891/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
 	android:label
-		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:7:9-41
+		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:10:9-41
 	android:allowBackup
-		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:8:9-47
+		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:11:9-47
 activity#com.drivenext.app.MainActivity
-ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:9:9-17:20
+ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:12:9-20:20
 	android:exported
-		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:11:13-36
+		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:14:13-36
 	android:theme
-		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:12:13-51
+		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:15:13-51
 	android:name
-		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:10:13-41
+		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:13:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:13:13-16:29
+ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:16:13-19:29
 action#android.intent.action.MAIN
-ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:14:17-69
+ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:14:25-66
+		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:15:17-77
+ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:15:27-74
+		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:18:27-74
 activity#com.drivenext.app.SplashActivity
-ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:18:9-20:54
-	android:theme
-		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:20:13-51
-	android:name
-		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:19:13-43
-activity#com.drivenext.app.OnboardingActivity
 ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:21:9-23:54
 	android:theme
 		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:23:13-51
 	android:name
-		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:22:13-47
-activity#com.drivenext.app.GettingStartedActivity
+		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:22:13-43
+activity#com.drivenext.app.OnboardingActivity
 ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:24:9-26:54
 	android:theme
 		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:26:13-51
 	android:name
-		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:25:13-51
-activity#com.drivenext.app.LoginActivity
+		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:25:13-47
+activity#com.drivenext.app.GettingStartedActivity
 ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:27:9-29:54
 	android:theme
 		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:29:13-51
 	android:name
-		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:28:13-42
-activity#com.drivenext.app.SignUp1Activity
+		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:28:13-51
+activity#com.drivenext.app.LoginActivity
 ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:30:9-32:54
 	android:theme
 		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:32:13-51
 	android:name
-		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:31:13-44
-activity#com.drivenext.app.SignUp2Activity
+		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:31:13-42
+activity#com.drivenext.app.SignUp1Activity
 ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:33:9-35:54
 	android:theme
 		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:35:13-51
 	android:name
 		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:34:13-44
-activity#com.drivenext.app.SignUp3Activity
+activity#com.drivenext.app.SignUp2Activity
 ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:36:9-38:54
 	android:theme
 		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:38:13-51
 	android:name
 		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:37:13-44
-activity#com.drivenext.app.CongratulationsActivity
+activity#com.drivenext.app.SignUp3Activity
 ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:39:9-41:54
 	android:theme
 		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:41:13-51
 	android:name
-		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:40:13-52
-activity#com.drivenext.app.NoConnectionActivity
+		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:40:13-44
+activity#com.drivenext.app.CongratulationsActivity
 ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:42:9-44:54
 	android:theme
 		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:44:13-51
 	android:name
-		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:43:13-49
-activity#com.drivenext.app.SearchResultsActivity
+		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:43:13-52
+activity#com.drivenext.app.NoConnectionActivity
 ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:45:9-47:54
 	android:theme
 		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:47:13-51
 	android:name
-		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:46:13-50
-activity#com.drivenext.app.CarDetailsActivity
+		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:46:13-49
+activity#com.drivenext.app.SearchResultsActivity
 ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:48:9-50:54
 	android:theme
 		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:50:13-51
 	android:name
-		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:49:13-47
-activity#com.drivenext.app.BookingActivity
+		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:49:13-50
+activity#com.drivenext.app.CarDetailsActivity
 ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:51:9-53:54
 	android:theme
 		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:53:13-51
 	android:name
-		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:52:13-44
-activity#com.drivenext.app.BookingSuccessActivity
+		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:52:13-47
+activity#com.drivenext.app.BookingActivity
 ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:54:9-56:54
 	android:theme
 		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:56:13-51
 	android:name
-		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:55:13-51
-activity#com.drivenext.app.MyBookingsActivity
+		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:55:13-44
+activity#com.drivenext.app.BookingSuccessActivity
 ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:57:9-59:54
 	android:theme
 		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:59:13-51
 	android:name
-		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:58:13-47
-activity#com.drivenext.app.BookingDetailsActivity
+		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:58:13-51
+activity#com.drivenext.app.MyBookingsActivity
 ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:60:9-62:54
 	android:theme
 		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:62:13-51
 	android:name
-		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:61:13-51
-activity#com.drivenext.app.FavoritesActivity
+		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:61:13-47
+activity#com.drivenext.app.BookingDetailsActivity
 ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:63:9-65:54
 	android:theme
 		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:65:13-51
 	android:name
-		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:64:13-46
-activity#com.drivenext.app.SettingsActivity
+		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:64:13-51
+activity#com.drivenext.app.FavoritesActivity
 ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:66:9-68:54
 	android:theme
 		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:68:13-51
 	android:name
-		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:67:13-45
-activity#com.drivenext.app.ProfileActivity
+		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:67:13-46
+activity#com.drivenext.app.SettingsActivity
 ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:69:9-71:54
 	android:theme
 		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:71:13-51
 	android:name
-		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:70:13-44
-activity#com.drivenext.app.BecomeOwnerActivity
+		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:70:13-45
+activity#com.drivenext.app.ProfileActivity
 ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:72:9-74:54
 	android:theme
 		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:74:13-51
 	android:name
-		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:73:13-48
-activity#com.drivenext.app.AddCarStep1Activity
+		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:73:13-44
+activity#com.drivenext.app.BecomeOwnerActivity
 ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:75:9-77:54
 	android:theme
 		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:77:13-51
 	android:name
 		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:76:13-48
-activity#com.drivenext.app.AddCarStep2Activity
+activity#com.drivenext.app.AddCarStep1Activity
 ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:78:9-80:54
 	android:theme
 		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:80:13-51
 	android:name
 		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:79:13-48
-activity#com.drivenext.app.AddCarStep3Activity
+activity#com.drivenext.app.AddCarStep2Activity
 ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:81:9-83:54
 	android:theme
 		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:83:13-51
 	android:name
 		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:82:13-48
-activity#com.drivenext.app.AddCarSuccessActivity
+activity#com.drivenext.app.AddCarStep3Activity
 ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:84:9-86:54
 	android:theme
 		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:86:13-51
 	android:name
-		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:85:13-50
+		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:85:13-48
+activity#com.drivenext.app.AddCarSuccessActivity
+ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:87:9-89:54
+	android:theme
+		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:89:13-51
+	android:name
+		ADDED from /Users/servas/zavar/app/src/main/AndroidManifest.xml:88:13-50
 uses-sdk
 INJECTED from /Users/servas/zavar/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/servas/zavar/app/src/main/AndroidManifest.xml

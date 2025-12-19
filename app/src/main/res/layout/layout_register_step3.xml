@@ -26,7 +26,11 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:src="@drawable/arrow_icon"
-                android:layout_marginEnd="16dp" />
+                android:layout_marginEnd="16dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Назад" />
 
             <TextView
                 android:layout_width="0dp"
@@ -94,6 +98,14 @@
         </LinearLayout>
 
         <!-- Номер водительского удостоверения -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Номер водительского удостоверения"
+            android:textSize="16sp"
+            android:textColor="@color/text_black"
+            android:layout_marginBottom="8dp" />
+
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -109,12 +121,20 @@
                 android:id="@+id/etLicenseNumber"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Номер водительского удостоверения"
+                android:hint="Введите номер"
                 android:inputType="number" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
         <!-- Дата выдачи -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Дата выдачи"
+            android:textSize="16sp"
+            android:textColor="@color/text_black"
+            android:layout_marginBottom="8dp" />
+
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -130,7 +150,7 @@
                 android:id="@+id/etLicenseIssueDate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Дата выдачи"
+                android:hint="DD/MM/YYYY"
                 android:inputType="date" />
 
         </com.google.android.material.textfield.TextInputLayout>

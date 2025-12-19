@@ -23,6 +23,19 @@ class Prefs(context: Context) {
         private const val KEY_IS_LOGGED_IN = "is_logged_in"
         private const val KEY_BOOKINGS = "bookings"
         private const val KEY_CAR_DRAFT = "car_draft"
+        private const val KEY_PROFILE_PHOTO_URI = "profile_photo_uri"
+        private const val KEY_LICENSE_PHOTO_URI = "license_photo_uri"
+        private const val KEY_PASSPORT_PHOTO_URI = "passport_photo_uri"
+        // Данные регистрации
+        private const val KEY_REG_EMAIL = "reg_email"
+        private const val KEY_REG_PASSWORD = "reg_password"
+        private const val KEY_REG_FIRST_NAME = "reg_first_name"
+        private const val KEY_REG_LAST_NAME = "reg_last_name"
+        private const val KEY_REG_MIDDLE_NAME = "reg_middle_name"
+        private const val KEY_REG_BIRTH_DATE = "reg_birth_date"
+        private const val KEY_REG_GENDER = "reg_gender"
+        private const val KEY_REG_LICENSE_NUMBER = "reg_license_number"
+        private const val KEY_REG_LICENSE_ISSUE_DATE = "reg_license_issue_date"
     }
 
     var isOnboardingCompleted: Boolean
@@ -86,6 +99,81 @@ class Prefs(context: Context) {
 
     fun clear() {
         prefs.edit().clear().apply()
+    }
+
+    // Сохранение URI фотографий регистрации
+    var profilePhotoUri: String?
+        get() = prefs.getString(KEY_PROFILE_PHOTO_URI, null)
+        set(value) = prefs.edit().putString(KEY_PROFILE_PHOTO_URI, value).apply()
+
+    var licensePhotoUri: String?
+        get() = prefs.getString(KEY_LICENSE_PHOTO_URI, null)
+        set(value) = prefs.edit().putString(KEY_LICENSE_PHOTO_URI, value).apply()
+
+    var passportPhotoUri: String?
+        get() = prefs.getString(KEY_PASSPORT_PHOTO_URI, null)
+        set(value) = prefs.edit().putString(KEY_PASSPORT_PHOTO_URI, value).apply()
+
+    fun clearRegistrationPhotos() {
+        prefs.edit()
+            .remove(KEY_PROFILE_PHOTO_URI)
+            .remove(KEY_LICENSE_PHOTO_URI)
+            .remove(KEY_PASSPORT_PHOTO_URI)
+            .apply()
+    }
+
+    // Данные регистрации
+    var registrationEmail: String?
+        get() = prefs.getString(KEY_REG_EMAIL, null)
+        set(value) = prefs.edit().putString(KEY_REG_EMAIL, value).apply()
+
+    var registrationPassword: String?
+        get() = prefs.getString(KEY_REG_PASSWORD, null)
+        set(value) = prefs.edit().putString(KEY_REG_PASSWORD, value).apply()
+
+    var registrationFirstName: String?
+        get() = prefs.getString(KEY_REG_FIRST_NAME, null)
+        set(value) = prefs.edit().putString(KEY_REG_FIRST_NAME, value).apply()
+
+    var registrationLastName: String?
+        get() = prefs.getString(KEY_REG_LAST_NAME, null)
+        set(value) = prefs.edit().putString(KEY_REG_LAST_NAME, value).apply()
+
+    var registrationMiddleName: String?
+        get() = prefs.getString(KEY_REG_MIDDLE_NAME, null)
+        set(value) = prefs.edit().putString(KEY_REG_MIDDLE_NAME, value).apply()
+
+    var registrationBirthDate: String?
+        get() = prefs.getString(KEY_REG_BIRTH_DATE, null)
+        set(value) = prefs.edit().putString(KEY_REG_BIRTH_DATE, value).apply()
+
+    var registrationGender: String?
+        get() = prefs.getString(KEY_REG_GENDER, null)
+        set(value) = prefs.edit().putString(KEY_REG_GENDER, value).apply()
+
+    var registrationLicenseNumber: String?
+        get() = prefs.getString(KEY_REG_LICENSE_NUMBER, null)
+        set(value) = prefs.edit().putString(KEY_REG_LICENSE_NUMBER, value).apply()
+
+    var registrationLicenseIssueDate: String?
+        get() = prefs.getString(KEY_REG_LICENSE_ISSUE_DATE, null)
+        set(value) = prefs.edit().putString(KEY_REG_LICENSE_ISSUE_DATE, value).apply()
+
+    fun clearRegistrationData() {
+        prefs.edit()
+            .remove(KEY_REG_EMAIL)
+            .remove(KEY_REG_PASSWORD)
+            .remove(KEY_REG_FIRST_NAME)
+            .remove(KEY_REG_LAST_NAME)
+            .remove(KEY_REG_MIDDLE_NAME)
+            .remove(KEY_REG_BIRTH_DATE)
+            .remove(KEY_REG_GENDER)
+            .remove(KEY_REG_LICENSE_NUMBER)
+            .remove(KEY_REG_LICENSE_ISSUE_DATE)
+            .remove(KEY_PROFILE_PHOTO_URI)
+            .remove(KEY_LICENSE_PHOTO_URI)
+            .remove(KEY_PASSPORT_PHOTO_URI)
+            .apply()
     }
 
     // Вспомогательный класс для сериализации/десериализации Booking

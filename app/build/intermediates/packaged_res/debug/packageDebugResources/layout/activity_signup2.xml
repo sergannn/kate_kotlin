@@ -115,7 +115,7 @@
                 android:id="@+id/etBirthDate"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/input_height"
-                android:hint="@string/date_hint"
+
                 android:textSize="@dimen/text_size_medium" />
         </com.google.android.material.textfield.TextInputLayout>
 

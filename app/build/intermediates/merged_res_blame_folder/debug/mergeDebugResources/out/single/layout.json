@@ -20,14 +20,6 @@
         "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/layout_register_step3.xml"
     },
     {
-        "merged": "com.drivenext.app-mergeDebugResources-35:/layout/bottom_tab_bar.xml",
-        "source": "com.drivenext.app-main-38:/layout/bottom_tab_bar.xml"
-    },
-    {
-        "merged": "com.drivenext.app-mergeDebugResources-35:/layout/activity_add_car_step1.xml",
-        "source": "com.drivenext.app-main-38:/layout/activity_add_car_step1.xml"
-    },
-    {
         "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-mergeDebugResources-35:/layout/item_booking.xml",
         "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/item_booking.xml"
     },
@@ -52,20 +44,16 @@
         "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_my_bookings.xml"
     },
     {
-        "merged": "com.drivenext.app-mergeDebugResources-35:/layout/activity_add_car_success.xml",
-        "source": "com.drivenext.app-main-38:/layout/activity_add_car_success.xml"
-    },
-    {
-        "merged": "com.drivenext.app-mergeDebugResources-35:/layout/activity_main.xml",
-        "source": "com.drivenext.app-main-38:/layout/activity_main.xml"
+        "merged": "com.drivenext.app-mergeDebugResources-35:/layout/activity_signup2.xml",
+        "source": "com.drivenext.app-main-38:/layout/activity_signup2.xml"
     },
     {
         "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-mergeDebugResources-35:/layout/activity_profile.xml",
         "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_profile.xml"
     },
     {
-        "merged": "com.drivenext.app-mergeDebugResources-35:/layout/activity_booking_details.xml",
-        "source": "com.drivenext.app-main-38:/layout/activity_booking_details.xml"
+        "merged": "com.drivenext.app-mergeDebugResources-35:/layout/layout_register_step3.xml",
+        "source": "com.drivenext.app-main-38:/layout/layout_register_step3.xml"
     },
     {
         "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-mergeDebugResources-35:/layout/activity_splash.xml",
@@ -80,20 +68,12 @@
         "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_main.xml"
     },
     {
-        "merged": "com.drivenext.app-mergeDebugResources-35:/layout/activity_booking_success.xml",
-        "source": "com.drivenext.app-main-38:/layout/activity_booking_success.xml"
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-mergeDebugResources-35:/layout/bottom_tab_bar.xml",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/bottom_tab_bar.xml"
     },
     {
         "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-mergeDebugResources-35:/layout/activity_add_car_step1.xml",
         "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_add_car_step1.xml"
-    },
-    {
-        "merged": "com.drivenext.app-mergeDebugResources-35:/layout/item_booking.xml",
-        "source": "com.drivenext.app-main-38:/layout/item_booking.xml"
-    },
-    {
-        "merged": "com.drivenext.app-mergeDebugResources-35:/layout/activity_add_car_step2.xml",
-        "source": "com.drivenext.app-main-38:/layout/activity_add_car_step2.xml"
     },
     {
         "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-mergeDebugResources-35:/layout/item_favorite_car.xml",
@@ -144,10 +124,6 @@
         "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_add_car_step2.xml"
     },
     {
-        "merged": "com.drivenext.app-mergeDebugResources-35:/layout/activity_become_owner.xml",
-        "source": "com.drivenext.app-main-38:/layout/activity_become_owner.xml"
-    },
-    {
         "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-mergeDebugResources-35:/layout/activity_add_car_step3.xml",
         "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_add_car_step3.xml"
     },
@@ -156,16 +132,8 @@
         "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/item_onboarding.xml"
     },
     {
-        "merged": "com.drivenext.app-mergeDebugResources-35:/layout/activity_my_bookings.xml",
-        "source": "com.drivenext.app-main-38:/layout/activity_my_bookings.xml"
-    },
-    {
         "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-mergeDebugResources-35:/layout/activity_booking_details.xml",
         "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_booking_details.xml"
-    },
-    {
-        "merged": "com.drivenext.app-mergeDebugResources-35:/layout/activity_favorites.xml",
-        "source": "com.drivenext.app-main-38:/layout/activity_favorites.xml"
     },
     {
         "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-mergeDebugResources-35:/layout/activity_booking_success.xml",
