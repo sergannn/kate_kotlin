@@ -8,12 +8,12 @@
         "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/onboarding_1.xml"
     },
     {
-        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_item_onboarding.xml.flat",
-        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/item_onboarding.xml"
-    },
-    {
         "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_activity_congratulations.xml.flat",
         "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_congratulations.xml"
+    },
+    {
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_item_onboarding.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/item_onboarding.xml"
     },
     {
         "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_heart.xml.flat",
@@ -28,16 +28,12 @@
         "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/bottom_tab_bar.xml"
     },
     {
-        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_home_settings.xml.flat",
-        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/home_settings.xml"
-    },
-    {
         "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_edit_text_background.xml.flat",
         "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/edit_text_background.xml"
     },
     {
-        "merged": "com.drivenext.app-debug-36:/layout_activity_signup2.xml.flat",
-        "source": "com.drivenext.app-main-38:/layout/activity_signup2.xml"
+        "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_home_settings.xml.flat",
+        "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/home_settings.xml"
     },
     {
         "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_uber_taxi_settings.xml.flat",
@@ -74,10 +70,6 @@
     {
         "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_activity_signup3.xml.flat",
         "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_signup3.xml"
-    },
-    {
-        "merged": "com.drivenext.app-debug-36:/layout_activity_add_car_step3.xml.flat",
-        "source": "com.drivenext.app-main-38:/layout/activity_add_car_step3.xml"
     },
     {
         "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_bookmark_settings.xml.flat",
@@ -164,10 +156,6 @@
         "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/layout_register_step2.xml"
     },
     {
-        "merged": "com.drivenext.app-debug-36:/layout_layout_register_step3.xml.flat",
-        "source": "com.drivenext.app-main-38:/layout/layout_register_step3.xml"
-    },
-    {
         "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_icon_profile_settings.xml.flat",
         "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/icon_profile_settings.xml"
     },
@@ -198,6 +186,10 @@
     {
         "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_help_settings.xml.flat",
         "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/help_settings.xml"
+    },
+    {
+        "merged": "com.drivenext.app-debug-36:/layout_activity_congratulations.xml.flat",
+        "source": "com.drivenext.app-main-38:/layout/activity_congratulations.xml"
     },
     {
         "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_activity_signup1.xml.flat",

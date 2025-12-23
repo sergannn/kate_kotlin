@@ -150,7 +150,6 @@
                 android:id="@+id/etLicenseIssueDate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="DD/MM/YYYY"
                 android:inputType="date" />
 
         </com.google.android.material.textfield.TextInputLayout>

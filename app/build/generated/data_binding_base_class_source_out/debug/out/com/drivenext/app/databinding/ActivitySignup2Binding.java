@@ -44,9 +44,6 @@ public final class ActivitySignup2Binding implements ViewBinding {
   public final TextInputEditText etMiddleName;
 
   @NonNull
-  public final View homeIndicator;
-
-  @NonNull
   public final RadioButton rbFemale;
 
   @NonNull
@@ -76,8 +73,8 @@ public final class ActivitySignup2Binding implements ViewBinding {
   private ActivitySignup2Binding(@NonNull ScrollView rootView, @NonNull ImageButton btnBack,
       @NonNull Button btnNext, @NonNull TextInputEditText etBirthDate,
       @NonNull TextInputEditText etFirstName, @NonNull TextInputEditText etLastName,
-      @NonNull TextInputEditText etMiddleName, @NonNull View homeIndicator,
-      @NonNull RadioButton rbFemale, @NonNull RadioButton rbMale, @NonNull RadioGroup rgGender,
+      @NonNull TextInputEditText etMiddleName, @NonNull RadioButton rbFemale,
+      @NonNull RadioButton rbMale, @NonNull RadioGroup rgGender,
       @NonNull TextInputLayout tilBirthDate, @NonNull TextInputLayout tilFirstName,
       @NonNull TextInputLayout tilLastName, @NonNull TextInputLayout tilMiddleName,
       @NonNull TextView tvGenderLabel, @NonNull TextView tvTitle) {
@@ -88,7 +85,6 @@ public final class ActivitySignup2Binding implements ViewBinding {
     this.etFirstName = etFirstName;
     this.etLastName = etLastName;
     this.etMiddleName = etMiddleName;
-    this.homeIndicator = homeIndicator;
     this.rbFemale = rbFemale;
     this.rbMale = rbMale;
     this.rgGender = rgGender;
@@ -163,12 +159,6 @@ public final class ActivitySignup2Binding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.homeIndicator;
-      View homeIndicator = ViewBindings.findChildViewById(rootView, id);
-      if (homeIndicator == null) {
-        break missingId;
-      }
-
       id = R.id.rbFemale;
       RadioButton rbFemale = ViewBindings.findChildViewById(rootView, id);
       if (rbFemale == null) {
@@ -224,8 +214,8 @@ public final class ActivitySignup2Binding implements ViewBinding {
       }
 
       return new ActivitySignup2Binding((ScrollView) rootView, btnBack, btnNext, etBirthDate,
-          etFirstName, etLastName, etMiddleName, homeIndicator, rbFemale, rbMale, rgGender,
-          tilBirthDate, tilFirstName, tilLastName, tilMiddleName, tvGenderLabel, tvTitle);
+          etFirstName, etLastName, etMiddleName, rbFemale, rbMale, rgGender, tilBirthDate,
+          tilFirstName, tilLastName, tilMiddleName, tvGenderLabel, tvTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

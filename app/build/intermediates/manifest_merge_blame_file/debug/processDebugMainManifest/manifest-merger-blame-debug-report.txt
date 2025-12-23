@@ -42,232 +42,231 @@
 27        android:extractNativeLibs="false"
 28        android:label="@string/app_name"
 28-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:10:9-41
-29        android:testOnly="true"
-30        android:theme="@style/Theme.DriveNext" >
-30-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:11:9-47
-31        <activity
-31-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:12:9-20:20
-32            android:name="com.drivenext.app.MainActivity"
-32-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:13:13-41
-33            android:exported="true"
-33-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:14:13-36
-34            android:theme="@style/Theme.DriveNext" >
-34-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:15:13-51
-35            <intent-filter>
-35-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:16:13-19:29
-36                <action android:name="android.intent.action.MAIN" />
-36-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:17:17-69
-36-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:17:25-66
-37
-38                <category android:name="android.intent.category.LAUNCHER" />
-38-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:18:17-77
-38-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:18:27-74
-39            </intent-filter>
-40        </activity>
-41        <activity
-41-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:21:9-23:54
-42            android:name="com.drivenext.app.SplashActivity"
-42-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:22:13-43
-43            android:theme="@style/Theme.DriveNext" />
-43-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:23:13-51
-44        <activity
-44-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:24:9-26:54
-45            android:name="com.drivenext.app.OnboardingActivity"
-45-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:25:13-47
-46            android:theme="@style/Theme.DriveNext" />
-46-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:26:13-51
-47        <activity
-47-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:27:9-29:54
-48            android:name="com.drivenext.app.GettingStartedActivity"
-48-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:28:13-51
-49            android:theme="@style/Theme.DriveNext" />
-49-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:29:13-51
-50        <activity
-50-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:30:9-32:54
-51            android:name="com.drivenext.app.LoginActivity"
-51-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:31:13-42
-52            android:theme="@style/Theme.DriveNext" />
-52-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:32:13-51
-53        <activity
-53-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:33:9-35:54
-54            android:name="com.drivenext.app.SignUp1Activity"
-54-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:34:13-44
-55            android:theme="@style/Theme.DriveNext" />
-55-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:35:13-51
-56        <activity
-56-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:36:9-38:54
-57            android:name="com.drivenext.app.SignUp2Activity"
-57-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:37:13-44
-58            android:theme="@style/Theme.DriveNext" />
-58-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:38:13-51
-59        <activity
-59-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:39:9-41:54
-60            android:name="com.drivenext.app.SignUp3Activity"
-60-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:40:13-44
-61            android:theme="@style/Theme.DriveNext" />
-61-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:41:13-51
-62        <activity
-62-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:42:9-44:54
-63            android:name="com.drivenext.app.CongratulationsActivity"
-63-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:43:13-52
-64            android:theme="@style/Theme.DriveNext" />
-64-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:44:13-51
-65        <activity
-65-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:45:9-47:54
-66            android:name="com.drivenext.app.NoConnectionActivity"
-66-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:46:13-49
-67            android:theme="@style/Theme.DriveNext" />
-67-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:47:13-51
-68        <activity
-68-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:48:9-50:54
-69            android:name="com.drivenext.app.SearchResultsActivity"
-69-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:49:13-50
-70            android:theme="@style/Theme.DriveNext" />
-70-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:50:13-51
-71        <activity
-71-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:51:9-53:54
-72            android:name="com.drivenext.app.CarDetailsActivity"
-72-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:52:13-47
-73            android:theme="@style/Theme.DriveNext" />
-73-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:53:13-51
-74        <activity
-74-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:54:9-56:54
-75            android:name="com.drivenext.app.BookingActivity"
-75-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:55:13-44
-76            android:theme="@style/Theme.DriveNext" />
-76-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:56:13-51
-77        <activity
-77-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:57:9-59:54
-78            android:name="com.drivenext.app.BookingSuccessActivity"
-78-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:58:13-51
-79            android:theme="@style/Theme.DriveNext" />
-79-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:59:13-51
-80        <activity
-80-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:60:9-62:54
-81            android:name="com.drivenext.app.MyBookingsActivity"
-81-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:61:13-47
-82            android:theme="@style/Theme.DriveNext" />
-82-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:62:13-51
-83        <activity
-83-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:63:9-65:54
-84            android:name="com.drivenext.app.BookingDetailsActivity"
-84-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:64:13-51
-85            android:theme="@style/Theme.DriveNext" />
-85-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:65:13-51
-86        <activity
-86-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:66:9-68:54
-87            android:name="com.drivenext.app.FavoritesActivity"
-87-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:67:13-46
-88            android:theme="@style/Theme.DriveNext" />
-88-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:68:13-51
-89        <activity
-89-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:69:9-71:54
-90            android:name="com.drivenext.app.SettingsActivity"
-90-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:70:13-45
-91            android:theme="@style/Theme.DriveNext" />
-91-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:71:13-51
-92        <activity
-92-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:72:9-74:54
-93            android:name="com.drivenext.app.ProfileActivity"
-93-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:73:13-44
-94            android:theme="@style/Theme.DriveNext" />
-94-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:74:13-51
-95        <activity
-95-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:75:9-77:54
-96            android:name="com.drivenext.app.BecomeOwnerActivity"
-96-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:76:13-48
-97            android:theme="@style/Theme.DriveNext" />
-97-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:77:13-51
-98        <activity
-98-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:78:9-80:54
-99            android:name="com.drivenext.app.AddCarStep1Activity"
-99-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:79:13-48
-100            android:theme="@style/Theme.DriveNext" />
-100-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:80:13-51
-101        <activity
-101-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:81:9-83:54
-102            android:name="com.drivenext.app.AddCarStep2Activity"
-102-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:82:13-48
-103            android:theme="@style/Theme.DriveNext" />
-103-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:83:13-51
-104        <activity
-104-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:84:9-86:54
-105            android:name="com.drivenext.app.AddCarStep3Activity"
-105-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:85:13-48
-106            android:theme="@style/Theme.DriveNext" />
-106-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:86:13-51
-107        <activity
-107-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:87:9-89:54
-108            android:name="com.drivenext.app.AddCarSuccessActivity"
-108-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:88:13-50
-109            android:theme="@style/Theme.DriveNext" />
-109-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:89:13-51
-110
-111        <provider
-111-->[androidx.emoji2:emoji2:1.2.0] /Users/servas/.gradle/caches/8.11.1/transforms/22d8926c3938567f5f7c802a43f87e0d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-112            android:name="androidx.startup.InitializationProvider"
-112-->[androidx.emoji2:emoji2:1.2.0] /Users/servas/.gradle/caches/8.11.1/transforms/22d8926c3938567f5f7c802a43f87e0d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
-113            android:authorities="com.drivenext.app.androidx-startup"
-113-->[androidx.emoji2:emoji2:1.2.0] /Users/servas/.gradle/caches/8.11.1/transforms/22d8926c3938567f5f7c802a43f87e0d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
-114            android:exported="false" >
-114-->[androidx.emoji2:emoji2:1.2.0] /Users/servas/.gradle/caches/8.11.1/transforms/22d8926c3938567f5f7c802a43f87e0d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
-115            <meta-data
-115-->[androidx.emoji2:emoji2:1.2.0] /Users/servas/.gradle/caches/8.11.1/transforms/22d8926c3938567f5f7c802a43f87e0d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-116                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-116-->[androidx.emoji2:emoji2:1.2.0] /Users/servas/.gradle/caches/8.11.1/transforms/22d8926c3938567f5f7c802a43f87e0d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
-117                android:value="androidx.startup" />
-117-->[androidx.emoji2:emoji2:1.2.0] /Users/servas/.gradle/caches/8.11.1/transforms/22d8926c3938567f5f7c802a43f87e0d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
-118            <meta-data
-118-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/servas/.gradle/caches/8.11.1/transforms/1dd5206996676f317f049588202b2d09/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
-119                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-119-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/servas/.gradle/caches/8.11.1/transforms/1dd5206996676f317f049588202b2d09/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
-120                android:value="androidx.startup" />
-120-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/servas/.gradle/caches/8.11.1/transforms/1dd5206996676f317f049588202b2d09/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
-121            <meta-data
-121-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
-122                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-122-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
-123                android:value="androidx.startup" />
-123-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
-124        </provider>
-125
-126        <receiver
-126-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
-127            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-127-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
-128            android:directBootAware="false"
-128-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
-129            android:enabled="true"
-129-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
-130            android:exported="true"
-130-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
-131            android:permission="android.permission.DUMP" >
-131-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
-132            <intent-filter>
-132-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
-133                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-133-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
-133-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
-134            </intent-filter>
-135            <intent-filter>
-135-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
-136                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-136-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
-136-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
-137            </intent-filter>
-138            <intent-filter>
-138-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
-139                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-139-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
-139-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
-140            </intent-filter>
-141            <intent-filter>
-141-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
-142                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-142-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
-142-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
-143            </intent-filter>
-144        </receiver>
-145    </application>
-146
-147</manifest>
+29        android:theme="@style/Theme.DriveNext" >
+29-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:11:9-47
+30        <activity
+30-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:12:9-20:20
+31            android:name="com.drivenext.app.MainActivity"
+31-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:13:13-41
+32            android:exported="true"
+32-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:14:13-36
+33            android:theme="@style/Theme.DriveNext" >
+33-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:15:13-51
+34            <intent-filter>
+34-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:16:13-19:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:17:17-69
+35-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:17:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:18:17-77
+37-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:18:27-74
+38            </intent-filter>
+39        </activity>
+40        <activity
+40-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:21:9-23:54
+41            android:name="com.drivenext.app.SplashActivity"
+41-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:22:13-43
+42            android:theme="@style/Theme.DriveNext" />
+42-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:23:13-51
+43        <activity
+43-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:24:9-26:54
+44            android:name="com.drivenext.app.OnboardingActivity"
+44-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:25:13-47
+45            android:theme="@style/Theme.DriveNext" />
+45-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:26:13-51
+46        <activity
+46-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:27:9-29:54
+47            android:name="com.drivenext.app.GettingStartedActivity"
+47-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:28:13-51
+48            android:theme="@style/Theme.DriveNext" />
+48-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:29:13-51
+49        <activity
+49-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:30:9-32:54
+50            android:name="com.drivenext.app.LoginActivity"
+50-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:31:13-42
+51            android:theme="@style/Theme.DriveNext" />
+51-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:32:13-51
+52        <activity
+52-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:33:9-35:54
+53            android:name="com.drivenext.app.SignUp1Activity"
+53-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:34:13-44
+54            android:theme="@style/Theme.DriveNext" />
+54-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:35:13-51
+55        <activity
+55-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:36:9-38:54
+56            android:name="com.drivenext.app.SignUp2Activity"
+56-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:37:13-44
+57            android:theme="@style/Theme.DriveNext" />
+57-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:38:13-51
+58        <activity
+58-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:39:9-41:54
+59            android:name="com.drivenext.app.SignUp3Activity"
+59-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:40:13-44
+60            android:theme="@style/Theme.DriveNext" />
+60-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:41:13-51
+61        <activity
+61-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:42:9-44:54
+62            android:name="com.drivenext.app.CongratulationsActivity"
+62-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:43:13-52
+63            android:theme="@style/Theme.DriveNext" />
+63-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:44:13-51
+64        <activity
+64-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:45:9-47:54
+65            android:name="com.drivenext.app.NoConnectionActivity"
+65-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:46:13-49
+66            android:theme="@style/Theme.DriveNext" />
+66-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:47:13-51
+67        <activity
+67-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:48:9-50:54
+68            android:name="com.drivenext.app.SearchResultsActivity"
+68-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:49:13-50
+69            android:theme="@style/Theme.DriveNext" />
+69-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:50:13-51
+70        <activity
+70-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:51:9-53:54
+71            android:name="com.drivenext.app.CarDetailsActivity"
+71-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:52:13-47
+72            android:theme="@style/Theme.DriveNext" />
+72-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:53:13-51
+73        <activity
+73-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:54:9-56:54
+74            android:name="com.drivenext.app.BookingActivity"
+74-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:55:13-44
+75            android:theme="@style/Theme.DriveNext" />
+75-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:56:13-51
+76        <activity
+76-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:57:9-59:54
+77            android:name="com.drivenext.app.BookingSuccessActivity"
+77-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:58:13-51
+78            android:theme="@style/Theme.DriveNext" />
+78-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:59:13-51
+79        <activity
+79-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:60:9-62:54
+80            android:name="com.drivenext.app.MyBookingsActivity"
+80-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:61:13-47
+81            android:theme="@style/Theme.DriveNext" />
+81-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:62:13-51
+82        <activity
+82-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:63:9-65:54
+83            android:name="com.drivenext.app.BookingDetailsActivity"
+83-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:64:13-51
+84            android:theme="@style/Theme.DriveNext" />
+84-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:65:13-51
+85        <activity
+85-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:66:9-68:54
+86            android:name="com.drivenext.app.FavoritesActivity"
+86-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:67:13-46
+87            android:theme="@style/Theme.DriveNext" />
+87-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:68:13-51
+88        <activity
+88-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:69:9-71:54
+89            android:name="com.drivenext.app.SettingsActivity"
+89-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:70:13-45
+90            android:theme="@style/Theme.DriveNext" />
+90-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:71:13-51
+91        <activity
+91-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:72:9-74:54
+92            android:name="com.drivenext.app.ProfileActivity"
+92-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:73:13-44
+93            android:theme="@style/Theme.DriveNext" />
+93-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:74:13-51
+94        <activity
+94-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:75:9-77:54
+95            android:name="com.drivenext.app.BecomeOwnerActivity"
+95-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:76:13-48
+96            android:theme="@style/Theme.DriveNext" />
+96-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:77:13-51
+97        <activity
+97-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:78:9-80:54
+98            android:name="com.drivenext.app.AddCarStep1Activity"
+98-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:79:13-48
+99            android:theme="@style/Theme.DriveNext" />
+99-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:80:13-51
+100        <activity
+100-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:81:9-83:54
+101            android:name="com.drivenext.app.AddCarStep2Activity"
+101-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:82:13-48
+102            android:theme="@style/Theme.DriveNext" />
+102-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:83:13-51
+103        <activity
+103-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:84:9-86:54
+104            android:name="com.drivenext.app.AddCarStep3Activity"
+104-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:85:13-48
+105            android:theme="@style/Theme.DriveNext" />
+105-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:86:13-51
+106        <activity
+106-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:87:9-89:54
+107            android:name="com.drivenext.app.AddCarSuccessActivity"
+107-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:88:13-50
+108            android:theme="@style/Theme.DriveNext" />
+108-->/Users/servas/zavar/app/src/main/AndroidManifest.xml:89:13-51
+109
+110        <provider
+110-->[androidx.emoji2:emoji2:1.2.0] /Users/servas/.gradle/caches/8.11.1/transforms/22d8926c3938567f5f7c802a43f87e0d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+111            android:name="androidx.startup.InitializationProvider"
+111-->[androidx.emoji2:emoji2:1.2.0] /Users/servas/.gradle/caches/8.11.1/transforms/22d8926c3938567f5f7c802a43f87e0d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+112            android:authorities="com.drivenext.app.androidx-startup"
+112-->[androidx.emoji2:emoji2:1.2.0] /Users/servas/.gradle/caches/8.11.1/transforms/22d8926c3938567f5f7c802a43f87e0d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+113            android:exported="false" >
+113-->[androidx.emoji2:emoji2:1.2.0] /Users/servas/.gradle/caches/8.11.1/transforms/22d8926c3938567f5f7c802a43f87e0d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+114            <meta-data
+114-->[androidx.emoji2:emoji2:1.2.0] /Users/servas/.gradle/caches/8.11.1/transforms/22d8926c3938567f5f7c802a43f87e0d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+115                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+115-->[androidx.emoji2:emoji2:1.2.0] /Users/servas/.gradle/caches/8.11.1/transforms/22d8926c3938567f5f7c802a43f87e0d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+116                android:value="androidx.startup" />
+116-->[androidx.emoji2:emoji2:1.2.0] /Users/servas/.gradle/caches/8.11.1/transforms/22d8926c3938567f5f7c802a43f87e0d/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+117            <meta-data
+117-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/servas/.gradle/caches/8.11.1/transforms/1dd5206996676f317f049588202b2d09/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+118                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+118-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/servas/.gradle/caches/8.11.1/transforms/1dd5206996676f317f049588202b2d09/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+119                android:value="androidx.startup" />
+119-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/servas/.gradle/caches/8.11.1/transforms/1dd5206996676f317f049588202b2d09/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+120            <meta-data
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+121                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+122                android:value="androidx.startup" />
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+123        </provider>
+124
+125        <receiver
+125-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+126            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+127            android:directBootAware="false"
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+128            android:enabled="true"
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+129            android:exported="true"
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+130            android:permission="android.permission.DUMP" >
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+131            <intent-filter>
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+132                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+133            </intent-filter>
+134            <intent-filter>
+134-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+135                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+136            </intent-filter>
+137            <intent-filter>
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+138                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+139            </intent-filter>
+140            <intent-filter>
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+141                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/servas/.gradle/caches/8.11.1/transforms/04fffc75f308fe2608e53fdbfec7b721/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+142            </intent-filter>
+143        </receiver>
+144    </application>
+145
+146</manifest>

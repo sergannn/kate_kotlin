@@ -26,7 +26,6 @@
         android:debuggable="true"
         android:extractNativeLibs="false"
         android:label="@string/app_name"
-        android:testOnly="true"
         android:theme="@style/Theme.DriveNext" >
         <activity
             android:name="com.drivenext.app.MainActivity"

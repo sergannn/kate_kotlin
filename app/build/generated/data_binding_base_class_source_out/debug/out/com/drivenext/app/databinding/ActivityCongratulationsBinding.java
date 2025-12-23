@@ -22,10 +22,7 @@ public final class ActivityCongratulationsBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button btnNext;
-
-  @NonNull
-  public final View homeIndicator;
+  public final Button btnLogin;
 
   @NonNull
   public final ImageView ivSuccess;
@@ -40,11 +37,10 @@ public final class ActivityCongratulationsBinding implements ViewBinding {
   public final TextView tvTitle;
 
   private ActivityCongratulationsBinding(@NonNull ConstraintLayout rootView,
-      @NonNull Button btnNext, @NonNull View homeIndicator, @NonNull ImageView ivSuccess,
-      @NonNull TextView tvCongratulations, @NonNull TextView tvMessage, @NonNull TextView tvTitle) {
+      @NonNull Button btnLogin, @NonNull ImageView ivSuccess, @NonNull TextView tvCongratulations,
+      @NonNull TextView tvMessage, @NonNull TextView tvTitle) {
     this.rootView = rootView;
-    this.btnNext = btnNext;
-    this.homeIndicator = homeIndicator;
+    this.btnLogin = btnLogin;
     this.ivSuccess = ivSuccess;
     this.tvCongratulations = tvCongratulations;
     this.tvMessage = tvMessage;
@@ -78,15 +74,9 @@ public final class ActivityCongratulationsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btnNext;
-      Button btnNext = ViewBindings.findChildViewById(rootView, id);
-      if (btnNext == null) {
-        break missingId;
-      }
-
-      id = R.id.homeIndicator;
-      View homeIndicator = ViewBindings.findChildViewById(rootView, id);
-      if (homeIndicator == null) {
+      id = R.id.btnLogin;
+      Button btnLogin = ViewBindings.findChildViewById(rootView, id);
+      if (btnLogin == null) {
         break missingId;
       }
 
@@ -114,8 +104,8 @@ public final class ActivityCongratulationsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityCongratulationsBinding((ConstraintLayout) rootView, btnNext, homeIndicator,
-          ivSuccess, tvCongratulations, tvMessage, tvTitle);
+      return new ActivityCongratulationsBinding((ConstraintLayout) rootView, btnLogin, ivSuccess,
+          tvCongratulations, tvMessage, tvTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

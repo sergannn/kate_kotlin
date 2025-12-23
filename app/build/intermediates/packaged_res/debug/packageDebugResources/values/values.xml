@@ -106,7 +106,7 @@
     <string name="change_password">Поменять пароль</string>
     <string name="checkout_title">Оформление аренды</string>
     <string name="close">Закрыть</string>
-    <string name="congratulations_message">Вы успешно зарегистрировались.\nОбработка ваших персональных данных займет около двух часов. Спасибо за ожидание.</string>
+    <string name="congratulations_message">Вы успешно зарегистрировались. Спасибо, что выбрали нас!</string>
     <string name="congratulations_title">Поздравляем</string>
     <string name="connect_car">Подключить свой автомобиль</string>
     <string name="continue_booking">Продолжить</string>

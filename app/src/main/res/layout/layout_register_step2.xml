@@ -168,7 +168,6 @@
                 android:id="@+id/etBirthDate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
-          <!--      android:hint="DD/MM/YYYY" -->
 
 
         </com.google.android.material.textfield.TextInputLayout>
