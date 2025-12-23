@@ -10,7 +10,7 @@ class CongratulationsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_congratulations)
 
-        findViewById<Button>(R.id.btnLogin).setOnClickListener {
+        findViewById<Button>(R.id.btnNext).setOnClickListener {
             startActivity(Intent(this, LoginActivity::class.java))
             finishAffinity()
         }

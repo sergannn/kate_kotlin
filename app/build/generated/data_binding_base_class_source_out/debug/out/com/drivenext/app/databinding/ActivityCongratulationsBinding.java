@@ -22,7 +22,7 @@ public final class ActivityCongratulationsBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button btnLogin;
+  public final Button btnNext;
 
   @NonNull
   public final ImageView ivSuccess;
@@ -37,10 +37,10 @@ public final class ActivityCongratulationsBinding implements ViewBinding {
   public final TextView tvTitle;
 
   private ActivityCongratulationsBinding(@NonNull ConstraintLayout rootView,
-      @NonNull Button btnLogin, @NonNull ImageView ivSuccess, @NonNull TextView tvCongratulations,
+      @NonNull Button btnNext, @NonNull ImageView ivSuccess, @NonNull TextView tvCongratulations,
       @NonNull TextView tvMessage, @NonNull TextView tvTitle) {
     this.rootView = rootView;
-    this.btnLogin = btnLogin;
+    this.btnNext = btnNext;
     this.ivSuccess = ivSuccess;
     this.tvCongratulations = tvCongratulations;
     this.tvMessage = tvMessage;
@@ -74,9 +74,9 @@ public final class ActivityCongratulationsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btnLogin;
-      Button btnLogin = ViewBindings.findChildViewById(rootView, id);
-      if (btnLogin == null) {
+      id = R.id.btnNext;
+      Button btnNext = ViewBindings.findChildViewById(rootView, id);
+      if (btnNext == null) {
         break missingId;
       }
 
@@ -104,7 +104,7 @@ public final class ActivityCongratulationsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityCongratulationsBinding((ConstraintLayout) rootView, btnLogin, ivSuccess,
+      return new ActivityCongratulationsBinding((ConstraintLayout) rootView, btnNext, ivSuccess,
           tvCongratulations, tvMessage, tvTitle);
     }
     String missingId = rootView.getResources().getResourceName(id);

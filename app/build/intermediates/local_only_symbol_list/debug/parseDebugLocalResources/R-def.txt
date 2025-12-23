@@ -45,6 +45,7 @@ dimen text_size_xxlarge
 drawable arrow_icon
 drawable arrow_icon_right
 drawable banknotes_settings
+drawable bg_success_circle
 drawable bookmark_settings
 drawable btn_rounded
 drawable car_map

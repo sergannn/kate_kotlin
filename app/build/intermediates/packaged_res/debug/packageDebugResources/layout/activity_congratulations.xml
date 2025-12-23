@@ -23,8 +23,12 @@
         android:id="@+id/ivSuccess"
         android:layout_width="96dp"
         android:layout_height="96dp"
+        android:background="@drawable/bg_success_circle"
         android:src="@drawable/success_icon"
-        android:layout_marginTop="237dp"
+        android:scaleType="centerInside"
+        app:tint="@color/text_white"
+        android:padding="24dp"
+        android:layout_marginTop="60dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvTitle" />
@@ -58,10 +62,10 @@
         app:layout_constraintTop_toBottomOf="@id/tvCongratulations" />
 
     <Button
-        android:id="@+id/btnLogin"
+        android:id="@+id/btnNext"
         android:layout_width="0dp"
         android:layout_height="@dimen/button_height"
-        android:text="@string/login"
+        android:text="@string/next"
         android:textColor="@color/white"
         android:background="@color/primary"
         android:layout_marginHorizontal="@dimen/margin_large"
