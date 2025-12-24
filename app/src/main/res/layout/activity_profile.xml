@@ -25,7 +25,11 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:src="@drawable/arrow_icon"
-                android:layout_marginEnd="16dp" />
+                android:layout_marginEnd="16dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Назад" />
 
             <TextView
                 android:id="@+id/titleTextView"

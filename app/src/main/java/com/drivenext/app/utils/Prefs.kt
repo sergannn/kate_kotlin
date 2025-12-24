@@ -36,6 +36,8 @@ class Prefs(context: Context) {
         private const val KEY_REG_GENDER = "reg_gender"
         private const val KEY_REG_LICENSE_NUMBER = "reg_license_number"
         private const val KEY_REG_LICENSE_ISSUE_DATE = "reg_license_issue_date"
+        // Избранные машины
+        private const val KEY_FAVORITE_CARS = "favorite_cars"
     }
 
     var isOnboardingCompleted: Boolean
@@ -174,6 +176,35 @@ class Prefs(context: Context) {
             .remove(KEY_LICENSE_PHOTO_URI)
             .remove(KEY_PASSPORT_PHOTO_URI)
             .apply()
+    }
+
+    // Избранные машины
+    fun getFavoriteCarIds(): Set<String> {
+        val json = prefs.getString(KEY_FAVORITE_CARS, null) ?: return emptySet()
+        return try {
+            val type = object : TypeToken<Set<String>>() {}.type
+            gson.fromJson(json, type) ?: emptySet()
+        } catch (e: Exception) {
+            emptySet()
+        }
+    }
+
+    fun addFavoriteCar(carId: String) {
+        val favorites = getFavoriteCarIds().toMutableSet()
+        favorites.add(carId)
+        val json = gson.toJson(favorites)
+        prefs.edit().putString(KEY_FAVORITE_CARS, json).apply()
+    }
+
+    fun removeFavoriteCar(carId: String) {
+        val favorites = getFavoriteCarIds().toMutableSet()
+        favorites.remove(carId)
+        val json = gson.toJson(favorites)
+        prefs.edit().putString(KEY_FAVORITE_CARS, json).apply()
+    }
+
+    fun isFavoriteCar(carId: String): Boolean {
+        return getFavoriteCarIds().contains(carId)
     }
 
     // Вспомогательный класс для сериализации/десериализации Booking

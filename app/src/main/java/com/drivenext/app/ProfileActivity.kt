@@ -5,6 +5,7 @@ import android.net.Uri
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
+import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.drivenext.app.data.repository.AuthRepository
@@ -22,6 +23,9 @@ class ProfileActivity : AppCompatActivity() {
     private lateinit var authRepository: AuthRepository
     private lateinit var prefs: Prefs
     private lateinit var avatarImageView: ImageView
+    private lateinit var userNameTextView: TextView
+    private lateinit var emailTextView: TextView
+    private lateinit var genderTextView: TextView
     
     companion object {
         private const val REQUEST_CODE_AVATAR = 3001
@@ -36,14 +40,23 @@ class ProfileActivity : AppCompatActivity() {
 
         initViews()
         setupClickListeners()
+        loadUserData()
         loadAvatar()
     }
     
     private fun initViews() {
         avatarImageView = findViewById(R.id.avatarImageView)
+        userNameTextView = findViewById(R.id.userNameTextView)
+        emailTextView = findViewById(R.id.emailTextView)
+        genderTextView = findViewById(R.id.genderTextView)
     }
     
     private fun setupClickListeners() {
+        // Кнопка назад
+        findViewById<ImageView>(R.id.btnBack)?.setOnClickListener {
+            onBackPressed()
+        }
+        
         // Изменение аватара
         avatarImageView.setOnClickListener {
             openImagePicker()
@@ -53,6 +66,33 @@ class ProfileActivity : AppCompatActivity() {
         findViewById<Button>(R.id.logoutButton)?.setOnClickListener {
             showLogoutDialog()
         }
+    }
+    
+    private fun loadUserData() {
+        // Загружаем имя из регистрации
+        val firstName = prefs.registrationFirstName ?: ""
+        val lastName = prefs.registrationLastName ?: ""
+        val middleName = prefs.registrationMiddleName
+        
+        val fullName = when {
+            firstName.isNotEmpty() && lastName.isNotEmpty() -> {
+                if (middleName != null && middleName.isNotEmpty()) {
+                    "$lastName $firstName $middleName"
+                } else {
+                    "$lastName $firstName"
+                }
+            }
+            else -> "Пользователь"
+        }
+        userNameTextView.text = fullName
+        
+        // Загружаем email
+        val email = prefs.registrationEmail ?: prefs.userEmail ?: ""
+        emailTextView.text = email
+        
+        // Загружаем пол
+        val gender = prefs.registrationGender ?: "Не указан"
+        genderTextView.text = gender
     }
     
     private fun openImagePicker() {
@@ -106,5 +146,10 @@ class ProfileActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+    }
+    
+    override fun onBackPressed() {
+        super.onBackPressed()
+        finish()
     }
 }

@@ -1,45 +1,94 @@
 package com.drivenext.app.data.repository
 
+import android.content.Context
 import com.drivenext.app.domain.model.Car
+import com.drivenext.app.utils.Prefs
 import kotlinx.coroutines.delay
 
 /**
  * Реализация репозитория автомобилей
  * TODO: Интегрировать с Supabase
  */
-class CarRepositoryImpl : CarRepository {
+class CarRepositoryImpl(private val context: Context? = null) : CarRepository {
+    
+    private val prefs: Prefs? = context?.let { Prefs(it) }
 
     // Временные мок-данные
     private val mockCars = listOf(
         Car(
             id = "1",
-            brand = "Toyota",
-            model = "Camry",
-            year = 2022,
-            pricePerDay = 3000,
+            brand = "Mercedes-Benz",
+            model = "S 500 Sedan",
+            year = 2023,
+            pricePerDay = 2500,
             fuelType = "Бензин",
-            transmission = "Автомат",
+            transmission = "A/T",
             seats = 5,
             imageUrl = "",
-            description = "Комфортный седан для городских поездок",
-            address = "Москва, ул. Ленина, 1",
+            description = "Роскошный седан премиум-класса с передовыми технологиями",
+            address = "Москва, ул. Тверская, 10",
             available = true,
-            mileage = 15000
+            mileage = 12000
         ),
         Car(
             id = "2",
-            brand = "BMW",
-            model = "X5",
-            year = 2023,
-            pricePerDay = 8000,
+            brand = "Mercedes-Benz",
+            model = "GLE 350",
+            year = 2022,
+            pricePerDay = 9000,
             fuelType = "Бензин",
-            transmission = "Автомат",
-            seats = 7,
+            transmission = "A/T",
+            seats = 5,
             imageUrl = "",
-            description = "Премиальный внедорожник",
-            address = "Москва, ул. Пушкина, 10",
+            description = "Премиальный внедорожник с полным приводом 4WD",
+            address = "Москва, ул. Ленинградский проспект, 15",
+            available = true,
+            mileage = 8000
+        ),
+        Car(
+            id = "3",
+            brand = "Mercedes-Benz",
+            model = "S 500 Sedan",
+            year = 2024,
+            pricePerDay = 2500,
+            fuelType = "Бензин",
+            transmission = "A/T",
+            seats = 5,
+            imageUrl = "",
+            description = "Новейший седан с улучшенной системой безопасности",
+            address = "Москва, ул. Арбат, 25",
             available = true,
             mileage = 5000
+        ),
+        Car(
+            id = "4",
+            brand = "Mercedes-Benz",
+            model = "GLE 350",
+            year = 2023,
+            pricePerDay = 9000,
+            fuelType = "Бензин",
+            transmission = "A/T",
+            seats = 5,
+            imageUrl = "",
+            description = "Современный внедорожник с комфортным салоном",
+            address = "Москва, ул. Кутузовский проспект, 20",
+            available = true,
+            mileage = 10000
+        ),
+        Car(
+            id = "5",
+            brand = "Mercedes-Benz",
+            model = "S 500 Sedan",
+            year = 2022,
+            pricePerDay = 2500,
+            fuelType = "Бензин",
+            transmission = "A/T",
+            seats = 5,
+            imageUrl = "",
+            description = "Элегантный седан для деловых поездок",
+            address = "Москва, ул. Новый Арбат, 30",
+            available = true,
+            mileage = 18000
         )
     )
 
@@ -69,25 +118,37 @@ class CarRepositoryImpl : CarRepository {
 
     override suspend fun getFavoriteCars(): Result<List<Car>> {
         delay(500)
-        // TODO: Реализовать через Supabase
-        return Result.success(emptyList())
+        return if (prefs != null) {
+            val favoriteIds = prefs.getFavoriteCarIds()
+            val favoriteCars = mockCars.filter { it.id in favoriteIds }
+            Result.success(favoriteCars)
+        } else {
+            Result.success(emptyList())
+        }
     }
 
     override suspend fun addToFavorites(carId: String): Result<Unit> {
         delay(300)
-        // TODO: Реализовать через Supabase
-        return Result.success(Unit)
+        return if (prefs != null) {
+            prefs.addFavoriteCar(carId)
+            Result.success(Unit)
+        } else {
+            Result.failure(Exception("Context не предоставлен"))
+        }
     }
 
     override suspend fun removeFromFavorites(carId: String): Result<Unit> {
         delay(300)
-        // TODO: Реализовать через Supabase
-        return Result.success(Unit)
+        return if (prefs != null) {
+            prefs.removeFavoriteCar(carId)
+            Result.success(Unit)
+        } else {
+            Result.failure(Exception("Context не предоставлен"))
+        }
     }
 
     override suspend fun isFavorite(carId: String): Boolean {
-        // TODO: Реализовать через Supabase
-        return false
+        return prefs?.isFavoriteCar(carId) ?: false
     }
 }
 

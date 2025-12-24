@@ -48,7 +48,15 @@ drawable banknotes_settings
 drawable bg_success_circle
 drawable bookmark_settings
 drawable btn_rounded
+drawable car_iris
+drawable car_iris_alt
+drawable car_iris_sedan
 drawable car_map
+drawable car_mercedes_1
+drawable car_mercedes_2
+drawable car_mercedes_3
+drawable car_mercedes_4
+drawable car_mercedes_gle350
 drawable check_circle
 drawable circle_background
 drawable circle_border

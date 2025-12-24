@@ -2995,7 +2995,15 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable btn_rounded
+drawable car_iris
+drawable car_iris_alt
+drawable car_iris_sedan
 drawable car_map
+drawable car_mercedes_1
+drawable car_mercedes_2
+drawable car_mercedes_3
+drawable car_mercedes_4
+drawable car_mercedes_gle350
 drawable check_circle
 drawable circle_background
 drawable circle_border

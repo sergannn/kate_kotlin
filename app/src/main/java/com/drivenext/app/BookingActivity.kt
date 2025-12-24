@@ -3,8 +3,10 @@ package com.drivenext.app
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.appbar.MaterialToolbar
 import com.drivenext.app.data.repository.BookingRepository
 import com.drivenext.app.data.repository.BookingRepositoryImpl
 import com.drivenext.app.data.repository.CarRepository
@@ -28,7 +30,7 @@ class BookingActivity : AppCompatActivity() {
         setContentView(R.layout.activity_booking)
 
         carId = intent.getStringExtra("car_id")
-        carRepository = CarRepositoryImpl()
+        carRepository = CarRepositoryImpl(this)
         bookingRepository = BookingRepositoryImpl(this)
 
         setupClickListeners()
@@ -36,9 +38,19 @@ class BookingActivity : AppCompatActivity() {
     }
 
     private fun setupClickListeners() {
+        // Кнопка назад в toolbar
+        findViewById<MaterialToolbar>(R.id.toolbar)?.setNavigationOnClickListener {
+            onBackPressed()
+        }
+        
         findViewById<Button>(R.id.continueButton)?.setOnClickListener {
             createBooking()
         }
+    }
+    
+    override fun onBackPressed() {
+        super.onBackPressed()
+        finish()
     }
     
     private fun createBooking() {
@@ -87,6 +99,21 @@ class BookingActivity : AppCompatActivity() {
                 findViewById<TextView>(R.id.carNameTextView)?.text = "${car.brand} ${car.model}"
                 findViewById<TextView>(R.id.carPriceTextView)?.text = "${car.pricePerDay} ₽/день"
                 findViewById<TextView>(R.id.locationTextView)?.text = car.address ?: ""
+                
+                // Загрузка изображения в зависимости от бренда и модели
+                val imageRes = when {
+                    car.brand.contains("Mercedes", ignoreCase = true) -> {
+                        when {
+                            car.model.contains("GLE", ignoreCase = true) -> R.drawable.car_mercedes_gle350
+                            car.model.contains("S 500", ignoreCase = true) || 
+                            car.model.contains("S500", ignoreCase = true) ||
+                            car.model.contains("Sedan", ignoreCase = true) -> R.drawable.car_iris_sedan
+                            else -> R.drawable.car_mercedes_gle350
+                        }
+                    }
+                    else -> R.drawable.car_iris
+                }
+                findViewById<ImageView>(R.id.carImageView)?.setImageResource(imageRes)
             }
         }
     }

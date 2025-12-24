@@ -12,6 +12,10 @@
         "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_car_details.xml"
     },
     {
+        "merged": "com.drivenext.app-mergeDebugResources-35:/layout/activity_profile.xml",
+        "source": "com.drivenext.app-main-38:/layout/activity_profile.xml"
+    },
+    {
         "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-mergeDebugResources-35:/layout/activity_add_car_success.xml",
         "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_add_car_success.xml"
     },
@@ -62,10 +66,6 @@
     {
         "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-mergeDebugResources-35:/layout/bottom_tab_bar.xml",
         "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/bottom_tab_bar.xml"
-    },
-    {
-        "merged": "com.drivenext.app-mergeDebugResources-35:/layout/activity_congratulations.xml",
-        "source": "com.drivenext.app-main-38:/layout/activity_congratulations.xml"
     },
     {
         "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-mergeDebugResources-35:/layout/activity_add_car_step1.xml",

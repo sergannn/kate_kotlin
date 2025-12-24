@@ -27,7 +27,7 @@ class FavoritesActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_favorites)
 
-        carRepository = CarRepositoryImpl()
+        carRepository = CarRepositoryImpl(this)
         rvCars = findViewById(R.id.rvCars)
         rvCars.layoutManager = LinearLayoutManager(this)
 

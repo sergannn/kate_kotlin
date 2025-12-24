@@ -50,7 +50,25 @@ class CarAdapter(
             tvTransmission.text = car.transmission
             tvSeats.text = "${car.seats} мест"
             
-            // TODO: Загрузка изображения через Glide/Picasso
+            // Загрузка изображения в зависимости от бренда и модели
+            val imageRes = when {
+                car.brand.contains("Mercedes", ignoreCase = true) -> {
+                    when {
+                        car.model.contains("GLE", ignoreCase = true) -> R.drawable.car_mercedes_gle350
+                        car.model.contains("S 500", ignoreCase = true) || 
+                        car.model.contains("S500", ignoreCase = true) ||
+                        car.model.contains("Sedan", ignoreCase = true) -> R.drawable.car_iris_sedan
+                        else -> R.drawable.car_mercedes_gle350
+                    }
+                }
+                else -> R.drawable.car_iris
+            }
+            ivCarImage.setImageResource(imageRes)
+            
+            // Клик на изображение открывает детали
+            ivCarImage.setOnClickListener { onDetailsClick(car) }
+            ivCarImage.isClickable = true
+            ivCarImage.isFocusable = true
             
             btnBook.setOnClickListener { onBookClick(car) }
             btnDetails.setOnClickListener { onDetailsClick(car) }

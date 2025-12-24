@@ -16,6 +16,10 @@
         "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_congratulations.xml"
     },
     {
+        "merged": "com.drivenext.app-debug-36:/drawable_car_mercedes_1.png.flat",
+        "source": "com.drivenext.app-main-38:/drawable/car_mercedes_1.png"
+    },
+    {
         "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_heart.xml.flat",
         "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/heart.xml"
     },
@@ -34,6 +38,10 @@
     {
         "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_edit_text_background.xml.flat",
         "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/edit_text_background.xml"
+    },
+    {
+        "merged": "com.drivenext.app-debug-36:/drawable_car_iris_alt.png.flat",
+        "source": "com.drivenext.app-main-38:/drawable/car_iris_alt.png"
     },
     {
         "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_uber_taxi_settings.xml.flat",
@@ -92,6 +100,10 @@
         "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/profile_avatar.png"
     },
     {
+        "merged": "com.drivenext.app-debug-36:/drawable_car_mercedes_4.png.flat",
+        "source": "com.drivenext.app-main-38:/drawable/car_mercedes_4.png"
+    },
+    {
         "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_activity_become_owner.xml.flat",
         "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_become_owner.xml"
     },
@@ -144,6 +156,10 @@
         "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_favorites.xml"
     },
     {
+        "merged": "com.drivenext.app-debug-36:/drawable_car_iris.png.flat",
+        "source": "com.drivenext.app-main-38:/drawable/car_iris.png"
+    },
+    {
         "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_activity_onboarding.xml.flat",
         "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_onboarding.xml"
     },
@@ -192,10 +208,6 @@
         "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/help_settings.xml"
     },
     {
-        "merged": "com.drivenext.app-debug-36:/layout_activity_congratulations.xml.flat",
-        "source": "com.drivenext.app-main-38:/layout/activity_congratulations.xml"
-    },
-    {
         "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_activity_signup1.xml.flat",
         "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_signup1.xml"
     },
@@ -216,6 +228,10 @@
         "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/ic_launcher_background.xml"
     },
     {
+        "merged": "com.drivenext.app-debug-36:/drawable_car_iris_sedan.png.flat",
+        "source": "com.drivenext.app-main-38:/drawable/car_iris_sedan.png"
+    },
+    {
         "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_ic_launcher_foreground.xml.flat",
         "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/ic_launcher_foreground.xml"
     },
@@ -226,6 +242,10 @@
     {
         "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_splash_image.png.flat",
         "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/splash_image.png"
+    },
+    {
+        "merged": "com.drivenext.app-debug-36:/drawable_car_mercedes_3.png.flat",
+        "source": "com.drivenext.app-main-38:/drawable/car_mercedes_3.png"
     },
     {
         "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_icon_settings.xml.flat",
@@ -254,6 +274,10 @@
     {
         "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_activity_settings.xml.flat",
         "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.drivenext.app-debug-36:/drawable_car_mercedes_gle350.png.flat",
+        "source": "com.drivenext.app-main-38:/drawable/car_mercedes_gle350.png"
     },
     {
         "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/layout_activity_login.xml.flat",
@@ -298,5 +322,9 @@
     {
         "merged": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-debug-36:/drawable_mail_settings.xml.flat",
         "source": "/Users/servas/.gradle/daemon/8.11.1/com.drivenext.app-main-38:/drawable/mail_settings.xml"
+    },
+    {
+        "merged": "com.drivenext.app-debug-36:/drawable_car_mercedes_2.png.flat",
+        "source": "com.drivenext.app-main-38:/drawable/car_mercedes_2.png"
     }
 ]

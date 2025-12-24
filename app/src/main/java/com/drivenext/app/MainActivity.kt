@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // Инициализация ViewModel
-        val carRepository: CarRepository = CarRepositoryImpl()
+        val carRepository: CarRepository = CarRepositoryImpl(this)
         val factory = ViewModelFactory(authRepository, carRepository)
         viewModel = ViewModelProvider(this, factory)[MainViewModel::class.java]
 

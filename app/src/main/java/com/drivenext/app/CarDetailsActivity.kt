@@ -23,13 +23,19 @@ class CarDetailsActivity : AppCompatActivity() {
 
     private lateinit var carRepository: CarRepository
     private var carId: String? = null
+    private lateinit var favoriteIcon: ImageView
+    private var isFavorite = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_car_details)
 
         carId = intent.getStringExtra("car_id")
-        carRepository = CarRepositoryImpl()
+        carRepository = CarRepositoryImpl(this)
+        favoriteIcon = findViewById(R.id.favoriteIcon)
+        
+        // Инициализируем иконку как пустую по умолчанию
+        updateFavoriteIcon()
 
         setupClickListeners()
         loadCarDetails()
@@ -52,10 +58,9 @@ class CarDetailsActivity : AppCompatActivity() {
             finish()
         }
 
-        // Избранное - элемент может отсутствовать в layout
-        findViewById<ImageView>(R.id.favoriteIcon)?.setOnClickListener {
-            // TODO: Добавить обработку избранного
-            Toast.makeText(this, "Добавлено в избранное", Toast.LENGTH_SHORT).show()
+        // Избранное
+        favoriteIcon.setOnClickListener {
+            toggleFavorite()
         }
     }
 
@@ -73,10 +78,60 @@ class CarDetailsActivity : AppCompatActivity() {
 
             result.onSuccess { car ->
                 displayCar(car)
+                checkFavoriteStatus()
             }.onFailure { error ->
                 Toast.makeText(this@CarDetailsActivity, 
                     error.message ?: "Ошибка загрузки", Toast.LENGTH_SHORT).show()
             }
+        }
+    }
+    
+    private fun checkFavoriteStatus() {
+        val id = carId ?: return
+        CoroutineScope(Dispatchers.Main).launch {
+            val favorite = withContext(Dispatchers.IO) {
+                carRepository.isFavorite(id)
+            }
+            isFavorite = favorite
+            updateFavoriteIcon()
+        }
+    }
+    
+    private fun toggleFavorite() {
+        val id = carId ?: return
+        CoroutineScope(Dispatchers.Main).launch {
+            val result = if (isFavorite) {
+                withContext(Dispatchers.IO) {
+                    carRepository.removeFromFavorites(id)
+                }
+            } else {
+                withContext(Dispatchers.IO) {
+                    carRepository.addToFavorites(id)
+                }
+            }
+            
+            result.onSuccess {
+                isFavorite = !isFavorite
+                updateFavoriteIcon()
+                val message = if (isFavorite) "Добавлено в избранное" else "Удалено из избранного"
+                Toast.makeText(this@CarDetailsActivity, message, Toast.LENGTH_SHORT).show()
+            }.onFailure { error ->
+                Toast.makeText(this@CarDetailsActivity, 
+                    "Ошибка: ${error.message}", Toast.LENGTH_SHORT).show()
+            }
+        }
+    }
+    
+    private fun updateFavoriteIcon() {
+        // Если в избранном - сердечко заполнено (фиолетовое), иначе пустое (серое/полупрозрачное)
+        if (isFavorite) {
+            // В избранном - заполненное сердечко (фиолетовое)
+            favoriteIcon.setColorFilter(getColor(R.color.brand_purple))
+            favoriteIcon.alpha = 1.0f
+        } else {
+            // Не в избранном - пустое сердечко (серое)
+            favoriteIcon.setColorFilter(getColor(R.color.text_gray))
+            favoriteIcon.alpha = 0.6f
         }
     }
 
@@ -87,8 +142,20 @@ class CarDetailsActivity : AppCompatActivity() {
         findViewById<TextView>(R.id.descriptionTextView)?.text = car.description ?: ""
         findViewById<TextView>(R.id.locationTextView)?.text = car.address ?: "Адрес не указан"
         
-        // Элементы, которых может не быть в layout - используем безопасный доступ
-        // TODO: Добавить эти элементы в layout при необходимости
+        // Загрузка изображения в зависимости от бренда и модели
+        val imageRes = when {
+            car.brand.contains("Mercedes", ignoreCase = true) -> {
+                when {
+                    car.model.contains("GLE", ignoreCase = true) -> R.drawable.car_mercedes_gle350
+                    car.model.contains("S 500", ignoreCase = true) || 
+                    car.model.contains("S500", ignoreCase = true) ||
+                    car.model.contains("Sedan", ignoreCase = true) -> R.drawable.car_iris_sedan
+                    else -> R.drawable.car_mercedes_gle350
+                }
+            }
+            else -> R.drawable.car_iris
+        }
+        findViewById<ImageView>(R.id.carImageView)?.setImageResource(imageRes)
     }
 }
 

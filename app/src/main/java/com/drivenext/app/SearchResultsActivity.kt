@@ -31,7 +31,11 @@ class SearchResultsActivity : AppCompatActivity() {
     private lateinit var rvCars: RecyclerView
     private lateinit var progressBar: ProgressBar
     private lateinit var layoutError: LinearLayout
+    private lateinit var layoutEmpty: LinearLayout
     private lateinit var btnRetry: Button
+    private lateinit var btnBack: android.widget.ImageView
+    private lateinit var etSearch: android.widget.EditText
+    private lateinit var btnSearch: android.widget.Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -39,26 +43,34 @@ class SearchResultsActivity : AppCompatActivity() {
 
         val prefs = Prefs(this)
         val authRepository: AuthRepository = AuthRepositoryImpl(prefs)
-        val carRepository: CarRepository = CarRepositoryImpl()
+        val carRepository: CarRepository = CarRepositoryImpl(this)
         val factory = ViewModelFactory(authRepository, carRepository)
         viewModel = ViewModelProvider(this, factory)[MainViewModel::class.java]
 
         initViews()
-        setupObservers()
         setupClickListeners()
-
-        // Выполнить поиск по переданному запросу
+        
+        // Выполнить поиск по переданному запросу ДО подписки на изменения
         val query = intent.getStringExtra("search_query") ?: ""
         if (query.isNotEmpty()) {
+            etSearch.setText(query)
+            // Очищаем состояние перед поиском
             viewModel.searchCars(query)
         }
+        
+        // Подписываемся на изменения после инициализации поиска
+        setupObservers()
     }
 
     private fun initViews() {
-        rvCars = findViewById(R.id.rvCars)
+        rvCars = findViewById(R.id.rvSearchResults)
         progressBar = findViewById(R.id.progressBar)
         layoutError = findViewById(R.id.layoutError)
+        layoutEmpty = findViewById(R.id.layoutEmpty)
         btnRetry = findViewById(R.id.btnRetry)
+        btnBack = findViewById(R.id.btnBack)
+        etSearch = findViewById(R.id.etSearch)
+        btnSearch = findViewById(R.id.btnSearch)
 
         rvCars.layoutManager = LinearLayoutManager(this)
     }
@@ -74,10 +86,18 @@ class SearchResultsActivity : AppCompatActivity() {
 
                 state.error?.let { error ->
                     showError(error)
+                } ?: run {
+                    // Если нет ошибки, скрываем layoutError
+                    layoutError.visibility = View.GONE
                 }
 
-                if (state.cars.isNotEmpty()) {
-                    showCars(state.cars)
+                // Показываем результаты или пустое состояние
+                if (!state.isLoading && state.error == null) {
+                    if (state.cars.isNotEmpty()) {
+                        showCars(state.cars)
+                    } else {
+                        showEmpty()
+                    }
                 }
             }
         }
@@ -85,16 +105,43 @@ class SearchResultsActivity : AppCompatActivity() {
 
     private fun setupClickListeners() {
         btnRetry.setOnClickListener {
-            val query = intent.getStringExtra("search_query") ?: ""
+            val query = etSearch.text.toString().trim()
             if (query.isNotEmpty()) {
                 viewModel.searchCars(query)
             }
         }
+
+        btnBack.setOnClickListener {
+            finish()
+        }
+
+        btnSearch.setOnClickListener {
+            performSearch()
+        }
+
+        etSearch.setOnEditorActionListener { _, actionId, _ ->
+            if (actionId == android.view.inputmethod.EditorInfo.IME_ACTION_SEARCH) {
+                performSearch()
+                true
+            } else {
+                false
+            }
+        }
+    }
+
+    private fun performSearch() {
+        val query = etSearch.text.toString().trim()
+        if (query.isEmpty()) {
+            android.widget.Toast.makeText(this, "Введите марку автомобиля", android.widget.Toast.LENGTH_SHORT).show()
+            return
+        }
+        viewModel.searchCars(query)
     }
 
     private fun showLoading() {
         progressBar.visibility = View.VISIBLE
         layoutError.visibility = View.GONE
+        layoutEmpty.visibility = View.GONE
         rvCars.visibility = View.GONE
     }
 
@@ -102,13 +149,21 @@ class SearchResultsActivity : AppCompatActivity() {
         progressBar.visibility = View.GONE
     }
 
-    private fun showError(error: String) {
+    private fun showError(@Suppress("UNUSED_PARAMETER") error: String) {
         layoutError.visibility = View.VISIBLE
+        layoutEmpty.visibility = View.GONE
+        rvCars.visibility = View.GONE
+    }
+
+    private fun showEmpty() {
+        layoutError.visibility = View.GONE
+        layoutEmpty.visibility = View.VISIBLE
         rvCars.visibility = View.GONE
     }
 
     private fun showCars(cars: List<Car>) {
         layoutError.visibility = View.GONE
+        layoutEmpty.visibility = View.GONE
         rvCars.visibility = View.VISIBLE
 
         val adapter = CarAdapter(

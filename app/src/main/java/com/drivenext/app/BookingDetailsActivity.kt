@@ -33,7 +33,7 @@ class BookingDetailsActivity : AppCompatActivity() {
 
         bookingId = intent.getStringExtra("booking_id")
         bookingRepository = BookingRepositoryImpl(applicationContext)
-        carRepository = CarRepositoryImpl()
+        carRepository = CarRepositoryImpl(applicationContext)
 
         setupClickListeners()
         loadBookingDetails()
@@ -114,6 +114,21 @@ class BookingDetailsActivity : AppCompatActivity() {
                     findViewById<TextView>(R.id.carBrandTextView)?.text = car.brand
                     findViewById<TextView>(R.id.carPriceTextView)?.text = "${car.pricePerDay} ₽/день"
                     findViewById<TextView>(R.id.locationTextView)?.text = car.address ?: ""
+                    
+                    // Загрузка изображения в зависимости от бренда и модели
+                    val imageRes = when {
+                        car.brand.contains("Mercedes", ignoreCase = true) -> {
+                            when {
+                                car.model.contains("GLE", ignoreCase = true) -> R.drawable.car_mercedes_gle350
+                                car.model.contains("S 500", ignoreCase = true) || 
+                                car.model.contains("S500", ignoreCase = true) ||
+                                car.model.contains("Sedan", ignoreCase = true) -> R.drawable.car_iris_sedan
+                                else -> R.drawable.car_mercedes_gle350
+                            }
+                        }
+                        else -> R.drawable.car_iris
+                    }
+                    findViewById<ImageView>(R.id.carImageView)?.setImageResource(imageRes)
                 }
             }.onFailure { error ->
                 Toast.makeText(this@BookingDetailsActivity, "Ошибка загрузки бронирования: ${error.message}", Toast.LENGTH_LONG).show()
